@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp ofrece soporte para BlueXP de diversas maneras. Hay disponibles amplias opciones de auto soporte gratuito las 24 horas del día, los 7 días de la semana, como artículos de la base de conocimiento (KB) y un foro de la comunidad. Su registro de soporte incluye soporte técnico remoto a través de tickets web.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtenga ayuda</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp ofrece soporte para BlueXP y sus servicios cloud de diversas maneras. Hay disponibles amplias opciones de auto soporte gratuito las 24 horas del día, los 7 días de la semana, como artículos de la base de conocimiento (KB) y un foro de la comunidad. Su registro de soporte incluye soporte técnico remoto a través de tickets web.</block>
+  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">Autoasistencia</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Estas opciones están disponibles de forma gratuita, las 24 horas del día, los 7 días de la semana:</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de conocimientos</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Busque en la base de conocimientos de BlueXP para encontrar artículos útiles para resolver problemas.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Comunidades</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Únase a la comunidad de BlueXP para seguir los debates en curso o crear otros nuevos.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentación</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">La documentación de BlueXP que está viendo actualmente.</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Correo:ng-cloudmanager-feedback@netapp.com[correo electrónico de comentarios]</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Apreciamos sus opiniones. Envíe sus comentarios para ayudarnos a mejorar BlueXP.</block>
+  <block id="0659d428df833a806e29e65e632d380a" category="section-title">Soporte de NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Además de las opciones de autosoporte anteriores, puede trabajar con un especialista de soporte de NetApp para resolver cualquier problema después de activar el soporte de.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">Antes de empezar</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">Aprenda a registrarse para obtener soporte</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">Para utilizar la capacidad *Crear un caso*, primero debe realizar un registro único del número de serie de su ID de cuenta de BlueXP (p. ej. 960xxxx) con NetApp. <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Pasos</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">En BlueXP, haga clic en *Ayuda &gt; Soporte*.</block>
+  <block id="f5052c65917d7341726235d4d4941461" category="list-text">Seleccione una de las opciones disponibles en Soporte técnico:</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Haga clic en *Llame a nosotros* si desea hablar con alguien en el teléfono. Se le dirigirá a una página de netapp.com que enumera los números de teléfono a los que puede llamar.</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">Haga clic en *Crear un caso* para abrir una incidencia con los especialistas de soporte de NetApp:</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*Cuenta del sitio de soporte de NetApp*: Seleccione la cuenta de NSS correspondiente asociada con la persona que abre el caso de soporte. Esta persona será el contacto principal con NetApp para contactar con ella, además de los correos electrónicos adicionales que se proporcionan a continuación.</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">Si no ve su cuenta NSS, puede ir a la pestaña *NSS Management* de la sección Soporte de BlueXP para agregarla allí.</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Servicio*: Seleccione el servicio con el que está asociado el problema. Por ejemplo, cuando BlueXP es específico de un problema de soporte técnico con flujos de trabajo o funcionalidades dentro del servicio.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Entorno de trabajo*: Si se aplica al almacenamiento, seleccione *Cloud Volumes ONTAP* o *On-Prem* y, a continuación, el entorno de trabajo asociado.</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">La lista de entornos de trabajo se encuentra dentro del ámbito de la cuenta BlueXP, el área de trabajo y el conector que ha seleccionado en el banner superior del servicio.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Prioridad de caso*: Elija la prioridad para el caso, que puede ser Baja, Media, Alta o crítica.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Para obtener más información sobre estas prioridades, pase el ratón sobre el icono de información situado junto al nombre del campo.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Descripción del problema*: Proporcione una descripción detallada del problema, incluidos los mensajes de error aplicables o los pasos de solución de problemas que haya realizado.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Direcciones de correo electrónico adicionales*: Introduzca direcciones de correo electrónico adicionales si desea que alguien más conozca este problema.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Captura de pantalla del formulario Crear un caso que le permite crear un caso con el soporte de NetApp.</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Después de terminar</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Aparecerá una ventana emergente con el número de caso de soporte. Un especialista de soporte de NetApp revisará su caso y le pondrá en contacto con usted próximamente.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Para obtener un historial de sus casos de soporte, puede hacer clic en *Configuración &gt; línea de tiempo* y buscar acciones denominadas "Crear caso de soporte". Un botón situado en el extremo derecho le permite ampliar la acción para ver los detalles.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Es posible que se encuentre el siguiente mensaje de error al intentar crear un caso:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"No está autorizado a crear un caso en el servicio seleccionado"</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">Este error podría significar que la cuenta NSS y la compañía de registro con la que está asociada no es la misma compañía de registro para el número de serie de la cuenta de BlueXP (es decir, 960xxxx) o el número de serie del entorno de trabajo. Puede consultar su lista de cuentas NSS en la parte superior del formulario *Crear un caso* para encontrar la coincidencia correcta, o puede buscar ayuda mediante una de las siguientes opciones:</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Usar el chat en el producto</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Envíe un caso no técnico en<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="50029b76f7a9ba944246b31a84fd8db2" category="summary">BlueXP le permite crear volúmenes de cloud basados en su suscripción a Cloud Volumes Service para AWS. También puede detectar los volúmenes de cloud que ya se crearon desde la interfaz de Cloud Volumes Service y añadirlos a un entorno de trabajo.</block>
+  <block id="d58f64c80e1d63d57d2b7b686600df2f" category="doc">Gestionar Cloud Volumes Service para AWS</block>
+  <block id="06021ba1ee96f1a3a57b50001fc7244c" category="inline-link">Cloud Volumes Service para AWS</block>
+  <block id="bb99f94db24ae1ef4b6875d88e3a67d5" category="paragraph">BlueXP le permite crear volúmenes de nube basados en su<block ref="2b79d0cac1b85facde7d3ecc5311b222" category="inline-link-rx"></block> suscripción. También puede detectar los volúmenes de cloud que ya se crearon desde la interfaz de Cloud Volumes Service y añadirlos a un entorno de trabajo.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX para ONTAP</block>
+  <block id="29cf1226a735547855c845852909a335" category="admonition">Con el lanzamiento de <block ref="96821e1e659978c978732a5dc24298ac" category="inline-link-macro-rx"></block>, Ya no puede crear nuevos entornos de trabajo CVS para AWS en BlueXP. Sin embargo, si anteriormente había añadido CVS para entornos de trabajo de AWS a BlueXP, puede continuar creando y gestionando volúmenes.</block>
+  <block id="7d7750669a7abd14bba890c8f84c37d8" category="section-title">Cree Cloud Volumes</block>
+  <block id="354bf896af3e95a882da0c34f21f4ec6" category="paragraph">Para las configuraciones donde ya hay volúmenes en el entorno de trabajo de Cloud Volumes Service, puede usar estos pasos para añadir volúmenes nuevos.</block>
+  <block id="bc0a237a2cc2962875202dfbdaa63f65" category="paragraph">Para configuraciones sin volúmenes, puede crear su primer volumen directamente desde BlueXP después de configurar su suscripción a Cloud Volumes Service para AWS. En el pasado, el primer volumen se debía crear directamente en la interfaz de usuario de Cloud Volumes Service.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Antes de empezar</block>
+  <block id="b544187fd0ebc7855a54e1264241a163" category="list-text">Si desea usar SMB en AWS, debe haber configurado DNS y Active Directory.</block>
+  <block id="f153caba90fc4134024f9b4c3eeadea8" category="list-text">Cuando planee crear un volumen SMB, debe tener un servidor de Windows Active Directory disponible para el que se pueda conectar. Deberá introducir esta información al crear el volumen. Además, asegúrese de que el usuario Admin puede crear una cuenta de equipo en la ruta de la unidad organizativa (OU) especificada.</block>
+  <block id="f3b88c561fc590a5f78d049cc89329b5" category="list-text">Necesitará esta información al crear el primer volumen en una nueva región/entorno de trabajo:</block>
+  <block id="a4f2df035c13c58cc376869dbee0ee14" category="inline-link-macro">Tema de AWS</block>
+  <block id="642d2cda7977cf264b1298d41df86786" category="list-text">ID de cuenta de AWS: Identificador de cuenta de Amazon de 12 dígitos sin guiones. Para encontrar su ID de cuenta, consulte este <block ref="c480412414908501543cf38478b1179b" category="inline-link-macro-rx"></block>.</block>
+  <block id="271583576fc127e2f9b56e836a8d1754" category="list-text">Bloque InterDomain Routing (CIDR) sin clase: Bloque IPv4 CIDR sin usar. El prefijo de red debe estar comprendido entre /16 y /28, y también debe estar dentro de los rangos reservados para redes privadas (RFC 1918). No seleccione una red que se superponga con las asignaciones CIDR de VPC.</block>
+  <block id="b00c2d91d7605a170171b54e68314bd6" category="list-text">Seleccione un entorno de trabajo CVS para AWS y haga clic en *Agregar nuevo volumen*.</block>
+  <block id="091ba3be5b79b98a60f70b0ddcbca994" category="inline-image-macro">Captura de pantalla de Cloud Volumes Service para AWS en la página entornos de trabajo.</block>
+  <block id="0722a286bdc136284c5c42d6024a3898" category="paragraph"><block ref="0722a286bdc136284c5c42d6024a3898" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d90ed71b0c87a5ac1242bfb18b8ec98e" category="list-text">Si va a añadir el primer volumen al entorno de trabajo de la región, tendrá que añadir la información de red de AWS.</block>
+  <block id="816acfd475c8602415d50d57042604a8" category="list-text">Introduzca el rango de IPv4 (CIDR) para la región.</block>
+  <block id="c19644df0fd63d9b566fdfc46fc5b91f" category="list-text">Introduzca el ID de cuenta de AWS de 12 dígitos (sin guiones) para conectar su cuenta de Cloud Volumes a su cuenta de AWS.</block>
+  <block id="26983a904e0717c520032a2178795368" category="list-text">Haga clic en *continuar*.</block>
+  <block id="e1725354b178ee163aab5ff88ba79962" category="inline-image-macro">Captura de pantalla de la página de configuración de red donde se agrega El ID de cuenta CIDR y AWS</block>
+  <block id="ae5d1f05cf02d95e15fb95c5f6512127" category="paragraph"><block ref="ae5d1f05cf02d95e15fb95c5f6512127" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e140b2c22b8d0139d834ebab18001419" category="list-text">En la página aceptando interfaces virtuales, se describen algunos pasos que deberá realizar después de agregar el volumen para que esté preparado para completar ese paso. Simplemente haga clic en *continuar* de nuevo.</block>
+  <block id="e3bd191f723fb22c2a0f732bd873a29e" category="list-text">En la página Details &amp; Tags, introduzca detalles sobre el volumen:</block>
+  <block id="0dcbdc7a88267f1af3dfbb016b0e988b" category="list-text">Escriba un nombre para el volumen.</block>
+  <block id="c6dee54a480ba6da3ed5355d644290bf" category="list-text">Especifique un tamaño dentro del intervalo de 100 GIB a 90,000 GIB (equivalente a 88 TIBs).</block>
+  <block id="18f39858c9507476f461154189c305ce" category="inline-link-macro">Más información sobre la capacidad asignada</block>
+  <block id="67a490b1b440aa4a195bc0b1c2eac66b" category="paragraph"><block ref="740ab61298b2f48927f56d106e976b75" category="inline-link-macro-rx"></block>.</block>
+  <block id="d5d2b1f89ce09d0f5810f56209020adc" category="list-text">Especifique un nivel de servicio: Standard, Premium o Extreme.</block>
+  <block id="4de85cc4f312ff19184ba3b85367874c" category="inline-link-macro">Obtenga más información sobre los niveles de servicio</block>
+  <block id="027ac71ad5ba9cea394371c445184e1a" category="paragraph"><block ref="facfe9652e3265a1bd370408a43c9e56" category="inline-link-macro-rx"></block>.</block>
+  <block id="b52dd7faab517a99be6bfdbd350e2024" category="list-text">Introduzca uno o más nombres de etiqueta para clasificar el volumen si lo desea.</block>
+  <block id="e779fbfdff90085c8a49c2e711c97ce8" category="inline-image-macro">Captura de pantalla de la página de detalles del volumen en la que se proporciona el nombre, el tamaño y el nivel de servicio</block>
+  <block id="0c9dac5fa8cb7db5aa581a972bfd9bcc" category="paragraph"><block ref="0c9dac5fa8cb7db5aa581a972bfd9bcc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="61626590a57bc8cc5a3923e8f5d7457a" category="list-text">En la página Protocol, seleccione NFS, SMB o Dual Protocol y, a continuación, defina los detalles. Las entradas necesarias para NFS y SMB se muestran en secciones independientes a continuación.</block>
+  <block id="d21a4fe6a8f6a1dfa8736389d4c3476d" category="list-text">En el campo Volume Path, especifique el nombre de la exportación de volumen que se verá cuando monte el volumen.</block>
+  <block id="d4032e7bc32cf7c7c802e2edd20ae7df" category="list-text">Si selecciona Protocolo dual, puede seleccionar el estilo de seguridad seleccionando NTFS o UNIX. Los estilos de seguridad afectan al tipo de permiso de archivo utilizado y cómo se pueden modificar los permisos.</block>
+  <block id="35c7690cdd2979341dcfe1409203a6f8" category="list-text">UNIX utiliza bits del modo NFSv3 y solo los clientes NFS pueden modificar los permisos.</block>
+  <block id="74851bf5ac7ba83cb1934d5c1c768a00" category="list-text">NTFS usa ACL de NTFS, y solo los clientes SMB pueden modificar los permisos.</block>
+  <block id="547a5c5cf72eabae707b477139de2cdd" category="list-text">Para NFS:</block>
+  <block id="972cad9fed78d5458afb433abba75a35" category="list-text">En el campo NFS Version, seleccione NFSv3, NFSv4.1 o ambos en función de sus requisitos.</block>
+  <block id="971b53e8e70edb4bd2dc46c1e9a5f83b" category="list-text">De manera opcional, puede crear una política de exportación para identificar los clientes que pueden acceder al volumen. Especifique:</block>
+  <block id="264754e31d1ff52cdc5aaf133afec15f" category="list-text">Clientes permitidos mediante una dirección IP o enrutamiento entre dominios sin clase (CIDR).</block>
+  <block id="afbfc1582fb1f428d3810c815dfcc309" category="list-text">Derechos de acceso como sólo lectura y escritura o lectura.</block>
+  <block id="4ab55a4fa374ed23333000e2528f27ae" category="list-text">Protocolo de acceso (o protocolos si el volumen permite el acceso NFSv3 y NFSv4.1) utilizado para los usuarios.</block>
+  <block id="c2e80b269feea5b55611a060d02af36b" category="list-text">Haga clic en *+ Agregar regla de directiva de exportación* si desea definir reglas de política de exportación adicionales.</block>
+  <block id="7f705955c40fe9715fd0b0beafc53e4d" category="paragraph">En la siguiente imagen, se muestra la página Volume rellenada para el protocolo NFS:</block>
+  <block id="7d060f160067a6298515896b28afec14" category="inline-image-macro">Una captura de pantalla que muestra la página del volumen rellenada para un volumen Cloud Volumes Service NFS.</block>
+  <block id="85096d1e03ed2996040c406e3e1d8b41" category="paragraph"><block ref="85096d1e03ed2996040c406e3e1d8b41" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9558b14c9d59086685b161678bbd5ba3" category="list-text">Para SMB:</block>
+  <block id="1ba239f53f2db3437185f2534e416469" category="list-text">Puede habilitar el cifrado de sesión SMB marcando la casilla de cifrado de protocolo SMB.</block>
+  <block id="a2c22edd5896ae686d3e4df9af7f0cb1" category="list-text">Puede integrar el volumen con un servidor de Windows Active Directory existente completando los campos de la sección Active Directory:</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">Campo</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descripción</block>
+  <block id="9d35762d6cb446294ba4226fba0d1eb5" category="cell">Dirección IP primaria DNS</block>
+  <block id="af76d053440af0abdccb0ad361f41e55" category="cell">Las direcciones IP de los servidores DNS que proporcionan resolución de nombres para el servidor SMB. Utilice una coma para separar las direcciones IP cuando haga referencia a varios servidores, por ejemplo, 172.31.25.223, 172.31.2.74.</block>
+  <block id="b4a5aaff47ac1aad0a039f0089aac0c6" category="cell">Dominio de Active Directory al que unirse</block>
+  <block id="c6574c421a99f2abfa9f469aee34e011" category="cell">El FQDN del dominio de Active Directory (AD) al que desea que se una el servidor SMB. Cuando se utilice Microsoft AD gestionado por AWS, utilice el valor del campo "Nombre DNS de directorio".</block>
+  <block id="bb78cf486f48b949ec20d57c3b4b3570" category="cell">Nombre NetBIOS del servidor SMB</block>
+  <block id="5edfee54ded2748effdab7c474ec6077" category="cell">Nombre NetBIOS para el servidor SMB que se va a crear.</block>
+  <block id="a3bbc956ff81e28dd77efaaf4d1c5b30" category="cell">Credenciales autorizadas para unirse al dominio</block>
+  <block id="03fa572f48ef7f33b022f609e0553e85" category="cell">Nombre y contraseña de una cuenta de Windows con privilegios suficientes para agregar equipos a la unidad organizativa (OU) especificada dentro del dominio AD.</block>
+  <block id="ff309cf3107765153856990e03224d8c" category="cell">Unidad organizacional</block>
+  <block id="5093dda171493c439ff0fd797361cdab" category="cell">La unidad organizativa del dominio AD para asociarla con el servidor SMB. El valor predeterminado es CN=equipos para las conexiones con su propio servidor de Windows Active Directory. Si configura Microsoft AD administrado de AWS como el servidor AD para Cloud Volumes Service, debe introducir *OU=equipos,OU=corp* en este campo.</block>
+  <block id="03e6e06b082c189fc87ad9aad3901032" category="paragraph">En la siguiente imagen, se muestra la página volumen llena para el protocolo SMB:</block>
+  <block id="a69750d79ae32373cb26af4d76eee484" category="inline-image-macro">Una captura de pantalla que muestra la página del volumen llena para un volumen Cloud Volumes Service de SMB.</block>
+  <block id="396a17f0ed51b9c5c6e2c2d382b9da29" category="paragraph"><block ref="396a17f0ed51b9c5c6e2c2d382b9da29" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b79db32b660a9bbc01887de0acbc4f26" category="inline-link-macro">Configuración del grupo de seguridad de AWS para servidores Windows AD</block>
+  <block id="0a57876be28d49580413d1a2558772fb" category="admonition">Debe seguir las directrices sobre la configuración del grupo de seguridad de AWS para habilitar volúmenes de cloud para que se integren correctamente con los servidores de Windows Active Directory. Consulte <block ref="f4ec2b2ad22b30798c401e715e4b45d6" category="inline-link-macro-rx"></block> si quiere más información.</block>
+  <block id="7bbdd974c5a4fcc356dc43411e4ac14a" category="list-text">En la página Volume from Snapshot, si desea que este volumen se cree según una copia de Snapshot de un volumen existente, seleccione la copia de Snapshot en la lista desplegable Snapshot Name.</block>
+  <block id="b51303a39ac56093d1845ac205322ee3" category="list-text">En la página Snapshot Policy, puede habilitar Cloud Volumes Service para crear copias Snapshot de los volúmenes según una programación. Puede hacer esto ahora o editar el volumen más tarde para definir la política de Snapshot.</block>
+  <block id="ba33208e705836c12b7e1e6e2fa6b492" category="inline-link-macro">Crear una política de Snapshot</block>
+  <block id="24655d5d01f8bd5ddfdadc9856177691" category="paragraph">Consulte <block ref="3e19941e2c727b2290f96f83089e313b" category="inline-link-macro-rx"></block> para obtener más información sobre la funcionalidad snapshot.</block>
+  <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">Haga clic en *Añadir volumen*.</block>
+  <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">El nuevo volumen se agrega al entorno de trabajo.</block>
+  <block id="539f38c23d6929f35c3331d13ab3c4bd" category="inline-link">Guía de configuración de la cuenta de Cloud Volumes Service para AWS de NetApp</block>
+  <block id="e88b859af73fdb6d9513646b0f296904" category="paragraph">Si este es el primer volumen creado en esta suscripción a AWS, debe iniciar la consola de gestión de AWS para aceptar la interfaz virtual que se usará en esta región de AWS para conectar todos sus volúmenes de cloud. Consulte<block ref="e5f75cea5d203da104ca9bf283e951b9" category="inline-link-rx"></block> para obtener más detalles.</block>
+  <block id="39a7008bb5d3e1b3ff14fbe14ca2e592" category="paragraph">Debe aceptar las interfaces en un plazo de 10 minutos después de hacer clic en el botón *Añadir volumen* o puede que se agote el tiempo de espera del sistema. Si esto sucede, envíe un correo electrónico a cvs-support@netapp.com con su ID de cliente de AWS y el número de serie de NetApp. El equipo de soporte solucionará el problema y puede reiniciar el proceso de incorporación.</block>
+  <block id="ff74d9d1d3fca1c7a3ef1f4d83f84caa" category="inline-link-macro">Montaje del volumen de cloud</block>
+  <block id="d669110a9e8449f0864298861b178caa" category="paragraph">A continuación, continúe con <block ref="c4f170bc2879d02b057f26156ec045e1" category="inline-link-macro-rx"></block>.</block>
+  <block id="f8a3e524010ba486ee8e4709993867f3" category="section-title">Monte el volumen de cloud</block>
+  <block id="fcb03967ed8d3cc12a54c528f2e8f49d" category="paragraph">Es posible montar un volumen de cloud en la instancia de AWS. Cloud Volumes admite actualmente NFSv3 y NFSv4.1 para clientes de Linux y UNIX, y SMB 3.0 y 3.1.1 para clientes de Windows.</block>
+  <block id="7d3e2b7307444071e2aff9ce902f88d2" category="paragraph">*Nota:* por favor use el protocolo/dialecto resaltado soportado por su cliente.</block>
+  <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">Abra el entorno de trabajo.</block>
+  <block id="231483c3df5be28012c03a70cd182671" category="list-text">Pase el ratón sobre el volumen y haga clic en *montar el volumen*.</block>
+  <block id="c21e14f1dd8e5365a4df06cc5998a734" category="paragraph">Los volúmenes NFS y SMB muestran instrucciones de montaje para ese protocolo. Los volúmenes de protocolo doble proporcionan ambos conjuntos de instrucciones.</block>
+  <block id="ca9ddaf06b48350fa016d22a546b3160" category="list-text">Pase el ratón sobre los comandos y cópielos en el portapapeles para simplificar este proceso. Solo tiene que agregar el directorio de destino/punto de montaje al final del comando.</block>
+  <block id="f8b7bb7f28d1f1a0e9534f8d8582d615" category="paragraph">*ejemplo de NFS:*</block>
+  <block id="b814517054080fc81ee838a94a37bc18" category="inline-image-macro">Instrucciones de montaje para volúmenes NFS</block>
+  <block id="5c81aee2de731ff9fc139e1be671e308" category="paragraph"><block ref="5c81aee2de731ff9fc139e1be671e308" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb3bef40f931522adf1b31bfb5ba4e1b" category="paragraph">El tamaño máximo de I/o definido por la<block ref="2c8f7e3ea90b72af8582c0f2716bd2b8" prefix=" " category="inline-code"></block> y..<block ref="374422a639d51557c7fcfc9c97aa4c07" prefix=" " category="inline-code"></block> options es 1048576, sin embargo 65536 es el valor predeterminado recomendado para la mayoría de los casos de uso.</block>
+  <block id="14207f0f4970c30af3f3b09bc26475c1" category="paragraph">Tenga en cuenta que los clientes de Linux tendrán NFSv4.1 de manera predeterminada a menos que se especifique la versión con<block ref="8d6fa55e844862b3ea6091f9f557abb6" prefix=" " category="inline-code"></block> opción.</block>
+  <block id="c33a261ec68784a847d41ccecc103bc1" category="paragraph">*ejemplo SMB:*</block>
+  <block id="dd92d715112689203a9d21e0c4638b23" category="inline-image-macro">Instrucciones de montaje para volúmenes SMB</block>
+  <block id="d837d9033dcef75be4b4e49cdbf1cd31" category="paragraph"><block ref="d837d9033dcef75be4b4e49cdbf1cd31" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="551922b0bc90cc1e1c104a41677df6f3" category="list-text">Conéctese a su instancia de Amazon Elastic Compute Cloud (EC2) mediante un cliente SSH o RDP y, a continuación, siga las instrucciones de montaje de su instancia.</block>
+  <block id="48bdce5c154a8b0847bc13ad135c652b" category="paragraph">Después de completar los pasos de las instrucciones de montaje, debe haber montado correctamente el volumen de cloud en la instancia de AWS.</block>
+  <block id="fb326b7d306e4c0117303049e48dfc52" category="section-title">Gestión de los volúmenes existentes</block>
+  <block id="83472337cbb57099afa660a35a9c3772" category="paragraph">Puede gestionar los volúmenes existentes a medida que cambien sus necesidades de almacenamiento. Es posible ver, editar, restaurar y eliminar volúmenes.</block>
+  <block id="51c267e93c101971f1edda68c933c864" category="list-text">Pase el ratón sobre el volumen.</block>
+  <block id="f102d2437687d23a5ac4fb68ea34668f" category="inline-image-macro">Captura de pantalla del menú de desplazamiento de volumen que le permite para realizar tareas de volumen</block>
+  <block id="e71fbc93fc9f7a94de75291a1c6fa4d6" category="paragraph"><block ref="e71fbc93fc9f7a94de75291a1c6fa4d6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="75ab567efb1db447b59b0343c1a2ceb3" category="list-text">Gestione sus volúmenes:</block>
+  <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">Tarea</block>
+  <block id="004bf6c9a40003140292e97330236c53" category="cell">Acción</block>
+  <block id="289d57ca7886b8016f08f4d17ad68a55" category="cell">Permite ver la información de un volumen</block>
+  <block id="af7d09d8e320bd6a243e7e191eb7025d" category="cell">Seleccione un volumen y, a continuación, haga clic en *Info*.</block>
+  <block id="a262a83ffe24815a6e18b8655e7c9d3c" category="cell">Editar un volumen (incluida la política de Snapshot)</block>
+  <block id="3a952a555dd0c4bc3d26bcf0d7fde45e" category="list-text">Seleccione un volumen y, a continuación, haga clic en *Editar*.</block>
+  <block id="13f2f059150e745212f31d522267cd21" category="list-text">Modifique las propiedades del volumen y haga clic en *Actualizar*.</block>
+  <block id="57ad6d7575a56679decf17fe96fcf1d0" category="cell">Obtenga el comando de montaje NFS o SMB</block>
+  <block id="b30235cfafd0f4b2de1c94d4bbbc6944" category="list-text">Seleccione un volumen y, a continuación, haga clic en *montar el volumen*.</block>
+  <block id="8f636e3ecab79b837953c9b370f79329" category="list-text">Haga clic en *Copiar* para copiar los comandos.</block>
+  <block id="7037507985b932c715517fcf78ae11e3" category="cell">Cree una copia Snapshot bajo demanda</block>
+  <block id="60e2cc66323270a764c3d126ddbdb292" category="list-text">Seleccione un volumen y, a continuación, haga clic en *Crear una copia Snapshot*.</block>
+  <block id="1dc03adea070e1afb3a901efa6fc6459" category="list-text">Si es necesario, cambie el nombre de la instantánea y, a continuación, haga clic en *Crear*.</block>
+  <block id="f8e9baca287188400b353f0fe39c789e" category="cell">Reemplace el volumen por el contenido de una copia Snapshot</block>
+  <block id="1460f312bdf51a225580ddecc083cf19" category="list-text">Seleccione un volumen y, a continuación, haga clic en *revertir volumen a Snapshot*.</block>
+  <block id="b287c286dfbb6ddb09f7af561118ea79" category="list-text">Seleccione una copia Snapshot y haga clic en *revertir*.</block>
+  <block id="7b364050ccd47e83ca87e25526786072" category="cell">Eliminar una copia Snapshot</block>
+  <block id="939b3653a783338bac814fa8c20d3b55" category="list-text">Seleccione un volumen y, a continuación, haga clic en *Eliminar una copia Snapshot*.</block>
+  <block id="9372fc1713f09255a76a27b66a7468f1" category="list-text">Seleccione la copia Snapshot que desea eliminar y haga clic en *Eliminar*.</block>
+  <block id="a87e9e2d6f69725c3669d99fad70371d" category="list-text">Vuelva a hacer clic en *Eliminar* para confirmar.</block>
+  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="cell">Eliminar un volumen</block>
+  <block id="e7d176ac7539a52a08943f65ecc19e32" category="list-text">Desmonte el volumen de todos los clientes:</block>
+  <block id="23394565644d9607267c2577190c4654" category="list-text">En los clientes Linux, utilice<block ref="8e1dd8720b090cbab6b23ce87ee795f6" prefix=" " category="inline-code"></block> comando.</block>
+  <block id="b70c71384dfeac0e536c343872f2fb55" category="list-text">En clientes Windows, haga clic en *desconectar unidad de red*.</block>
+  <block id="150cd3111dfd7ae68aaeb429e7e50847" category="list-text">Seleccione un volumen y, a continuación, haga clic en *Eliminar*.</block>
+  <block id="b85b36830c35b1e3b85c911b3cd549f3" category="section-title">Quitar Cloud Volumes Service de BlueXP</block>
+  <block id="8e08e17058232de834b336c13bd7188b" category="paragraph">Puede eliminar una suscripción a Cloud Volumes Service para AWS y todos los volúmenes existentes de BlueXP. Los volúmenes no se eliminan, simplemente se eliminan de la interfaz BlueXP.</block>
+  <block id="20412a8730fffa9466be9fe2b26844b6" category="inline-image-macro">Una captura de pantalla de selección de la opción para eliminar Cloud Volumes Service de BlueXP.</block>
+  <block id="9e91d37aa355c026dd4a515f197f7ca4" category="paragraph"><block ref="9e91d37aa355c026dd4a515f197f7ca4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c723db2b353490931b5febeb5b3ec637" category="list-text">Haga clic en la <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> En la parte superior de la página y haga clic en *Quitar Cloud Volumes Service*.</block>
+  <block id="d6781b097f0c80fef5a0f286b314592a" category="list-text">En el cuadro de diálogo de confirmación, haga clic en *Quitar*.</block>
+  <block id="f30fc720797fd88aa8f663a5a819665b" category="section-title">Administrar la configuración de Active Directory</block>
+  <block id="e18b6b0f318e9762e70aae7f12bb5804" category="paragraph">Si cambia sus servidores DNS o dominio de Active Directory, debe modificar el servidor SMB en Cloud Volumes Services para poder seguir sirviendo almacenamiento a los clientes.</block>
+  <block id="07afa1da28c4f6f41539c8ceee7f6417" category="paragraph">También puede eliminar el vínculo a un Active Directory si ya no lo necesita.</block>
+  <block id="69911db82cd6ce5dc7c63d1b33420f3b" category="list-text">Haga clic en la <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> En la parte superior de la página y haga clic en *Administrar Active Directory*.</block>
+  <block id="134ad6402428806a133702a811b06537" category="list-text">Si no se ha configurado Active Directory, puede agregar uno ahora. Si se ha configurado uno, puede modificar los ajustes o eliminarlos utilizando <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> botón.</block>
+  <block id="cf4e123c6bdc4cb4eab7a7ea4adf62af" category="list-text">Especifique la configuración de Active Directory a la que desea unirse:</block>
+  <block id="c1ca298a9a9c76ca22ecf23ccaca6448" category="cell">Las direcciones IP de los servidores DNS que proporcionan resolución de nombres para el servidor SMB. Utilice comas para separar las direcciones IP al hacer referencia a varios servidores, por ejemplo, 172.31.25.223, 172.31.2.74.</block>
+  <block id="4bc62575e91aa40d329c1383c7a4fc46" category="list-text">Haga clic en *Guardar* para guardar la configuración.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legales</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Los avisos legales proporcionan acceso a las declaraciones de copyright, marcas comerciales, patentes y mucho más.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Derechos de autor</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciales</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, el logotipo de NETAPP y las marcas enumeradas en la página de marcas comerciales de NetApp son marcas comerciales de NetApp, Inc. Los demás nombres de empresas y productos son marcas comerciales de sus respectivos propietarios.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Estadounidenses</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Puede encontrar una lista actual de las patentes propiedad de NetApp en:</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidad</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código abierto</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Los archivos de notificación proporcionan información sobre los derechos de autor y las licencias de terceros que se utilizan en software de NetApp.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Aviso para BlueXP</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="7ecb27295a94995c3226ee6a00e61dac" category="summary">El coste de Cloud Volumes Service para AWS se basa en el nivel de servicio y la capacidad asignada que seleccione. Al seleccionar el nivel de servicio y la capacidad adecuados, podrá satisfacer sus necesidades de almacenamiento con el menor coste.</block>
+  <block id="068b8cb31f226939d310dc3f1bff723c" category="doc">Los niveles de servicio y la capacidad asignada</block>
+  <block id="6979439f532107351636cd9fc8e5debe" category="paragraph">El coste de Cloud Volumes Service para AWS se basa en el _nivel de servicio_ y en el _capacidad asignada_ que seleccione. Al seleccionar el nivel de servicio y la capacidad adecuados, podrá satisfacer sus necesidades de almacenamiento con el menor coste.</block>
+  <block id="ea61e2c2ff507048203824add1eb7c21" category="section-title">Consideraciones</block>
+  <block id="e9e60dd401a5b937180118755b2c516f" category="paragraph">Entre las necesidades de almacenamiento se encuentran dos aspectos fundamentales:</block>
+  <block id="fec28a2ae3528c66f53ebe76c854e92f" category="list-text">El almacenamiento _Capacity_ para retener datos</block>
+  <block id="9d7a4264a0f7f44695b988f88cdbf00d" category="list-text">El _Bandwidth_ de almacenamiento para interactuar con datos</block>
+  <block id="38d12ff54e360686263308a96fd9217c" category="paragraph">Si consume más espacio de almacenamiento que la capacidad seleccionada para el volumen, se deben tener en cuenta las siguientes consideraciones:</block>
+  <block id="9b177f3b5012cc7a7fdc682fc2988847" category="list-text">Se le facturará la capacidad de almacenamiento adicional que use con el precio definido por su nivel de servicio.</block>
+  <block id="a24fb87327e01f9d972fcc8f148a8006" category="list-text">La cantidad de ancho de banda de almacenamiento disponible para el volumen no aumenta hasta que aumenta el tamaño de capacidad asignada o cambia el nivel de servicio.</block>
+  <block id="c6f45ce2284ef7f44c38a58ebbd013e0" category="section-title">Niveles de servicio</block>
+  <block id="421405600dbac51a8d526a6ba0b154c6" category="paragraph">Cloud Volumes Service para AWS ofrece soporte a tres niveles de servicio. Debe especificar el nivel de servicio al crear o modificar el volumen.</block>
+  <block id="60bc680f6244fa7d54528486e2d2b04d" category="paragraph">Los niveles de servicio se ofrecen para distintas necesidades de capacidad de almacenamiento y ancho de banda de almacenamiento:</block>
+  <block id="92a6e56b5e5d5f811a086aaa714742b2" category="list-text">**Estándar** (capacidad)</block>
+  <block id="8da6204306af19ccd70ab85e1c1f1029" category="paragraph">Si desea capacidad con el menor costo y sus necesidades de ancho de banda son limitadas, el nivel de servicio estándar puede ser más adecuado para usted. Un ejemplo es el uso del volumen como destino de backup.</block>
+  <block id="3ac69ccfc6792ec21bd8ffab1dfb98c8" category="list-text">Ancho de banda: 16 KB de ancho de banda por GB de capacidad aprovisionada</block>
+  <block id="be3cebf083f37aeffebd57d996548f8e" category="list-text">**Premium** (un equilibrio entre capacidad y rendimiento)</block>
+  <block id="fbac7022c702c9d12572dd615ef17a0d" category="paragraph">Si su aplicación tiene una necesidad equilibrada de capacidad de almacenamiento y ancho de banda, puede que el nivel de servicio Premium sea el más adecuado. Este nivel es menos costoso por MB/s que el nivel de servicio estándar, y también resulta más económico por GB de capacidad de almacenamiento que el nivel de servicio extremo.</block>
+  <block id="ba7e1ee82476be180981f31a6c955bb5" category="list-text">Ancho de banda: 64 KB de ancho de banda por GB de capacidad aprovisionada</block>
+  <block id="ce14cf4662be2609e919850db18c8bc1" category="list-text">**Extreme** (rendimiento)</block>
+  <block id="c70f7e92618aa18fbdfbb8f2931029d5" category="paragraph">El nivel de servicio extremo es menos costoso en términos de ancho de banda de almacenamiento. Si su aplicación requiere ancho de banda de almacenamiento sin la demanda asociada de mucha capacidad de almacenamiento, puede que el nivel de servicio extremo sea más adecuado para usted.</block>
+  <block id="69af2908469ea6cc3270e8598edb606c" category="list-text">Ancho de banda: 128 KB de ancho de banda por GB de capacidad aprovisionada</block>
+  <block id="fba79ccafdb2717d0f2107ecca0bab16" category="section-title">Capacidad asignada</block>
+  <block id="8be570b19c302676d406e242a338cc98" category="paragraph">Debe especificar la capacidad asignada para el volumen cuando cree o modifique el volumen.</block>
+  <block id="6e7b7bcdf649d898ca61befdc7ebe633" category="paragraph">Si bien debe seleccionar su nivel de servicio en función de sus necesidades empresariales generales de alto nivel, debe seleccionar su tamaño de capacidad asignada en función de las necesidades específicas de las aplicaciones, por ejemplo:</block>
+  <block id="7a514d592ea09e8cf39304fb5fd687ff" category="list-text">Cantidad de espacio de almacenamiento que necesitan las aplicaciones</block>
+  <block id="78c779a14fb92b89e0ba07d2d0a58e51" category="list-text">¿Cuánto ancho de banda del almacenamiento por segundo que requieren las aplicaciones o las los usuarios lo necesitan</block>
+  <block id="cb606ae605bac0398d2f20e40cbbea63" category="paragraph">La capacidad asignada se especifica en GBS. La capacidad asignada de un volumen se puede establecer entre 100 GB y 100,000 GB (equivalente a 100 TB).</block>
+  <block id="6f979818230d4e05c5e0e6a622be92fd" category="section-title">Número de inodos</block>
+  <block id="4befc62c5b2a3509b19a274cdb519659" category="paragraph">Volúmenes inferiores o iguales a 1 TB pueden usar hasta 20 millones de inodos. El número de inodos aumenta en 20 millones por cada TB que asigne, hasta un máximo de 100 millones de inodos.</block>
+  <block id="b5ad4a53f7910efad5e0b32480ac4644" category="list-text">\&lt;= 1 TB = 20 millones de inodos</block>
+  <block id="9048dd5aaea9ea899eb5d3c504a388e4" category="list-text">&gt;1 TB a 2 TB = 40 millones de inodos</block>
+  <block id="84e9ea4a8cb6dda1638be3c1085d4794" category="list-text">&gt;2 TB a 3 TB = 60 millones de inodos</block>
+  <block id="fad0f1d113e957c55c7adaf192b41c90" category="list-text">&gt;3 TB a 4 TB = 80 millones de inodos</block>
+  <block id="968c9954af08101b6859a753070b5cfd" category="list-text">&gt;4 TB a 100 TB = 100 millones de inodos</block>
+  <block id="7d724e4bd163fe8323200b15500517f9" category="section-title">Ancho de banda</block>
+  <block id="7c710de840d663ce1b41ce18323e24d4" category="paragraph">La combinación de tanto el nivel de servicio como la capacidad asignada que seleccione determina el ancho de banda máximo del volumen.</block>
+  <block id="b6b860ad9bd23cc49cf7d156afff6df4" category="paragraph">Si sus aplicaciones o usuarios necesitan más ancho de banda que las selecciones, puede cambiar el nivel de servicio o aumentar la capacidad asignada. Los cambios no interrumpen el acceso a los datos.</block>
+  <block id="d166390b76a18ea782161fb36dba3f2b" category="section-title">Selección del nivel de servicio y la capacidad asignada</block>
+  <block id="e175cfd89a253264b4cf1a5738f8c75f" category="paragraph">Para seleccionar el nivel de servicio y la capacidad asignada que más se correspondan con sus necesidades, debe saber la capacidad y el ancho de banda que necesita en el extremo o en la periferia.</block>
+  <block id="d0111659b6ad66f50a734e9fb839f909" category="section-title">Lista de niveles de servicio y capacidad asignada</block>
+  <block id="fdd35ba1f9baa581d209f9745d5e6886" category="paragraph">La columna situada más a la izquierda indica la capacidad y las demás columnas definen los MB/s disponibles en cada punto de capacidad en función del nivel de servicio.</block>
+  <block id="8fb6421387c794bbfede3b93daf76791" category="inline-link-macro">Precio de suscripción por contrato</block>
+  <block id="18db41dd22ae4ce50d9b559ad710c80e" category="inline-link-macro">Tarificación por suscripciones</block>
+  <block id="709437fd87f14fefdd0d44b61fe6825c" category="paragraph">Consulte <block ref="21674e06edf418cd4a76600da19abac6" category="inline-link-macro-rx"></block> y.. <block ref="bd01cd94b71e02c31aec3cfa581aa95c" category="inline-link-macro-rx"></block> para obtener información completa sobre los precios.</block>
+  <block id="b20b7ada5b0022cbdfccc7272aaac5ef" category="cell">Capacidad (TB)</block>
+  <block id="fa470739a3bd28709c54fe307058aa34" category="cell">Estándar (MB/s)</block>
+  <block id="c09dd8571e479fa8e5a5a58bf8fc321a" category="cell">Premium (MB/s)</block>
+  <block id="eec8976d0e40b86dc97c0eadd7583ca3" category="cell">Extremo (MB/s)</block>
+  <block id="d30afcce0a79de2f0b4b40521ccf9d80" category="cell">0.1 (100 GB)</block>
+  <block id="4341447b6ad78bf4d7eb59ebb5a53d63" category="cell">1.6</block>
+  <block id="ded681fc154529ebbc7562fb0c73ba47" category="cell">6.4</block>
+  <block id="e76af95319f03251bdf6c3771f39afbe" category="cell">12.8</block>
+  <block id="c4ca4238a0b923820dcc509a6f75849b" category="cell">1</block>
+  <block id="c74d97b01eae257e44aa9d5bade97baf" category="cell">16</block>
+  <block id="ea5d2f1c4608232e07d3aa3d998e5135" category="cell">64</block>
+  <block id="76dc611d6ebaafc66cc0879c71b5db5c" category="cell">128</block>
+  <block id="c81e728d9d4c2f636f067f89cc14862c" category="cell">2</block>
+  <block id="6364d3f0f495b6ab9dcf8d3b5c6e0b01" category="cell">32</block>
+  <block id="f718499c1c8cef6730f9fd03c8125cab" category="cell">256</block>
+  <block id="eccbc87e4b5ce2fe28308fd9f2a7baf3" category="cell">3</block>
+  <block id="642e92efb79421734881b53e1e1b18b6" category="cell">48</block>
+  <block id="58a2fc6ed39fd083f55d4182bf88826d" category="cell">192</block>
+  <block id="0584ce565c824b7b7f50282d9a19945b" category="cell">384</block>
+  <block id="a87ff679a2f3e71d9181a67b7542122c" category="cell">4</block>
+  <block id="10a7cdd970fe135cf4f7bb55c0e3b59f" category="cell">512</block>
+  <block id="e4da3b7fbbce2345d7772b0674a318d5" category="cell">5</block>
+  <block id="f033ab37c30201f73f142449d037028d" category="cell">80</block>
+  <block id="320722549d1751cf3f247855f937b982" category="cell">320</block>
+  <block id="4ffce04d92a4d6cb21c1494cdfcd6dc1" category="cell">640</block>
+  <block id="1679091c5a880faf6fb5e6087eb1b2dc" category="cell">6</block>
+  <block id="26657d5ff9020d2abefe558796b99584" category="cell">96</block>
+  <block id="3a835d3215755c435ef4fe9965a3f2a0" category="cell">768</block>
+  <block id="8f14e45fceea167a5a36dedd4bea2543" category="cell">7</block>
+  <block id="7f6ffaa6bb0b408017b62254211691b5" category="cell">112</block>
+  <block id="9b70e8fe62e40c570a322f1b0b659098" category="cell">448</block>
+  <block id="061412e4a03c02f9902576ec55ebbe77" category="cell">896</block>
+  <block id="c9f0f895fb98ab9159f51fd0297e236d" category="cell">8</block>
+  <block id="a980f22074119d4103953f70f2fd69ce" category="cell">1,024</block>
+  <block id="45c48cce2e2d7fbdea1afc51c7c6ad26" category="cell">9</block>
+  <block id="0a09c8844ba8f0936c20bd791130d6b6" category="cell">144</block>
+  <block id="a7aeed74714116f3b292a982238f83d2" category="cell">576</block>
+  <block id="a2ec7ea68d10c1832eb7bc24417b4c73" category="cell">1,152</block>
+  <block id="d3d9446802a44259755d38e6d163e820" category="cell">10</block>
+  <block id="b73ce398c39f506af761d2277d853a92" category="cell">160</block>
+  <block id="d074a76497ac7c9cf90be2933f171e07" category="cell">1,280</block>
+  <block id="6512bd43d9caa6e02c990b0a82652dca" category="cell">11</block>
+  <block id="38af86134b65d0f10fe33d30dd76442e" category="cell">176</block>
+  <block id="f64eac11f2cd8f0efa196f8ad173178e" category="cell">704</block>
+  <block id="b5433fb6d3b738bfc5bf19637b8c12a0" category="cell">1,408</block>
+  <block id="c20ad4d76fe97759aa27a0c99bff6710" category="cell">12</block>
+  <block id="d969ae360b7ff6fa704401ecb7d4424d" category="cell">1,536</block>
+  <block id="c51ce410c124a10e0db5e4b97fc2af39" category="cell">13</block>
+  <block id="091d584fced301b442654dd8c23b3fc9" category="cell">208</block>
+  <block id="7250eb93b3c18cc9daa29cf58af7a004" category="cell">832</block>
+  <block id="ca17fb4ccf34589606ea20f51fb67572" category="cell">1,664</block>
+  <block id="aab3238922bcc25a6f606eb525ffdc56" category="cell">14</block>
+  <block id="13fe9d84310e77f13a6d184dbf1232f3" category="cell">224</block>
+  <block id="51f8a71bd595aee58a4d31fcc5b7251e" category="cell">1,792</block>
+  <block id="9bf31c7ff062936a96d3c8bd1f8f2ff3" category="cell">15</block>
+  <block id="335f5352088d7d9bf74191e006d8e24c" category="cell">240</block>
+  <block id="437d7d1d97917cd627a34a6a0fb41136" category="cell">960</block>
+  <block id="c9ce3b8b108f8145e2fc3eb7064c3516" category="cell">1,920</block>
+  <block id="4546199e2bcb9ae49a13edef9675fd03" category="cell">2,048</block>
+  <block id="70efdf2ec9b086079795c442636b55fb" category="cell">17</block>
+  <block id="7a614fd06c325499f1680b9896beedeb" category="cell">272</block>
+  <block id="857a14696a060a6cd2faa38c7b476305" category="cell">1,088</block>
+  <block id="408fef2b76c44f4ca6fb5c74b192b429" category="cell">2,176</block>
+  <block id="6f4922f45568161a8cdf4ad2299f6d23" category="cell">18</block>
+  <block id="48aedb8880cab8c45637abc7493ecddd" category="cell">288</block>
+  <block id="1ced3beb6929d932c52fd501ac7ef9c2" category="cell">2,304</block>
+  <block id="1f0e3dad99908345f7439f8ffabdffc4" category="cell">19</block>
+  <block id="37bc2f75bf1bcfe8450a1a41c200364c" category="cell">304</block>
+  <block id="32ad3356163eab16620a49733767a241" category="cell">1,216</block>
+  <block id="85862250c8d12522fa16feede37b89ae" category="cell">2,432</block>
+  <block id="98f13708210194c475687be6106a3b84" category="cell">20</block>
+  <block id="2372fbbe5b31f0a06ff46aae4e94d156" category="cell">2,560</block>
+  <block id="3c59dc048e8850243be8079a5c74d079" category="cell">21</block>
+  <block id="6855456e2fe46a9d49d3d3af4f57443d" category="cell">336</block>
+  <block id="bfacb0cda62d58861198f46c8f59999d" category="cell">1,344</block>
+  <block id="e586434102dc24b1e7c7dd19995d8ba2" category="cell">2,688</block>
+  <block id="b6d767d2f8ed5d21a44b0e5886680cb9" category="cell">22</block>
+  <block id="371bce7dc83817b7893bcdeed13799b5" category="cell">352</block>
+  <block id="5d172485a2518083f572ac0c7b774a8d" category="cell">2,816</block>
+  <block id="37693cfc748049e45d87b8c7d8b9aacd" category="cell">23</block>
+  <block id="cf004fdc76fa1a4f25f62e0eb5261ca3" category="cell">368</block>
+  <block id="3299f7267db8fe9f13dc0b68a8ebcc66" category="cell">1,472</block>
+  <block id="2e7b19fc245c368ab19620107880cd28" category="cell">2,944</block>
+  <block id="1ff1de774005f8da13f42943881c655f" category="cell">24</block>
+  <block id="6b4f9c381e764df5528ccd7edfbfbc0e" category="cell">3,072</block>
+  <block id="8e296a067a37563370ded05f5a3bf3ec" category="cell">25</block>
+  <block id="18d8042386b79e2c279fd162df0205c8" category="cell">400</block>
+  <block id="9f62f1974f653574a79b51175c6f815a" category="cell">1,600</block>
+  <block id="9b27a8f7b7b1e02d20f94ccd0f705c81" category="cell">3,200</block>
+  <block id="4e732ced3463d06de0ca9a15b6153677" category="cell">26</block>
+  <block id="8fe0093bb30d6f8c31474bd0764e6ac0" category="cell">416</block>
+  <block id="03798723555b0ede4dde0e36f0728fcd" category="cell">3,328</block>
+  <block id="02e74f10e0327ad868d138f2b4fdd6f0" category="cell">27</block>
+  <block id="248e844336797ec98478f85e7626de4a" category="cell">432</block>
+  <block id="438af5a7df39d4656ece3cd1c1499b0f" category="cell">1,728</block>
+  <block id="6f5b269f08bebe3bf5aa67d20c8a1982" category="cell">3,456</block>
+  <block id="33e75ff09dd601bbe69f351039152189" category="cell">28</block>
+  <block id="9a003cffecc0e8671073944fd9257b22" category="cell">3,584</block>
+  <block id="6ea9ab1baa0efb9e19094440c317e21b" category="cell">29</block>
+  <block id="f1b6f2857fb6d44dd73c7041e0aa0f19" category="cell">464</block>
+  <block id="c2a2f0121b38748f2ea78a331b2bb22c" category="cell">1,856</block>
+  <block id="cfd5cf9297bab50b5bad09036e9e0dc3" category="cell">3,712</block>
+  <block id="34173cb38f07f89ddbebc2ac9128303f" category="cell">30</block>
+  <block id="6ea2ef7311b482724a9b7b0bc0dd85c6" category="cell">480</block>
+  <block id="eebe33fdc6823a44adbcad8ecf8b68c1" category="cell">3,840</block>
+  <block id="c16a5320fa475530d9583c34fd356ef5" category="cell">31</block>
+  <block id="b534ba68236ba543ae44b22bd110a1d6" category="cell">496</block>
+  <block id="ae3945f38f605859bc5371bf14b18ac9" category="cell">1,984</block>
+  <block id="1f0c0806adc2bddfe63d7d7379aea76d" category="cell">3,968</block>
+  <block id="c9ca1ec49e8aac1615059e421cbb4793" category="cell">4,096</block>
+  <block id="182be0c5cdcd5072bb1864cdee4d3d6e" category="cell">33</block>
+  <block id="f4be00279ee2e0a53eafdaa94a151e2c" category="cell">528</block>
+  <block id="4eabed92a3b9b17a9e978ae065374304" category="cell">2,112</block>
+  <block id="0f6e26643fab7063e44bbb4a11e2340e" category="cell">4,224</block>
+  <block id="e369853df766fa44e1ed0ff613f563bd" category="cell">34</block>
+  <block id="97e8527feaf77a97fc38f34216141515" category="cell">544</block>
+  <block id="e2cdf56d6e1982c6471048ba70156221" category="cell">4,352</block>
+  <block id="1c383cd30b7c298ab50293adfecb7b18" category="cell">35</block>
+  <block id="a9a6653e48976138166de32772b1bf40" category="cell">560</block>
+  <block id="be186c804064fc0b6325f6b5f3bd64ab" category="cell">2,240</block>
+  <block id="876272968baa90d7368e3b1a6672dbcf" category="cell">4,480</block>
+  <block id="19ca14e7ea6328a42e0eb13d585e4c22" category="cell">36</block>
+  <block id="c7a406813eceb19ae792b1eb5cb3c9f2" category="cell">4,500</block>
+  <block id="a5bfc9e07964f8dddeb95fc584cd965d" category="cell">37</block>
+  <block id="dbe272bab69f8e13f14b405e038deb64" category="cell">592</block>
+  <block id="95f3d05f7452cc80901a5c4e9350d15c" category="cell">2,368</block>
+  <block id="a5771bce93e200c36f7cd9dfd0e5deaa" category="cell">38</block>
+  <block id="996a7fa078cc36c46d02f9af3bef918b" category="cell">608</block>
+  <block id="d67d8ab4f4c10bf22aa353e27879133c" category="cell">39</block>
+  <block id="48ab2f9b45957ab574cf005eb8a76760" category="cell">624</block>
+  <block id="a49d5fec73f3733f1991638259163bb4" category="cell">2,496</block>
+  <block id="d645920e395fedad7bbbed0eca3fe2e0" category="cell">40</block>
+  <block id="3416a75f4cea9109507cacd8e2f2aefc" category="cell">41</block>
+  <block id="26408ffa703a72e8ac0117e74ad46f33" category="cell">656</block>
+  <block id="748ec101eac6bc8826c843ea0e3e8e30" category="cell">2,624</block>
+  <block id="a1d0c6e83f027327d8461063f4ac58a6" category="cell">42</block>
+  <block id="2dea61eed4bceec564a00115c4d21334" category="cell">672</block>
+  <block id="17e62166fc8586dfa4d1bc0e1742c08b" category="cell">43</block>
+  <block id="f79921bbae40a577928b76d2fc3edc2a" category="cell">688</block>
+  <block id="fa064943223d179f779ba445cdcbe40b" category="cell">2,752</block>
+  <block id="f7177163c833dff4b38fc8d2872f1ec6" category="cell">44</block>
+  <block id="6c8349cc7260ae62e3b1396831a8398f" category="cell">45</block>
+  <block id="5f2c22cb4a5380af7ca75622a6426917" category="cell">720</block>
+  <block id="8dbe5468ca4a7bd73018d84ae2927c88" category="cell">2,880</block>
+  <block id="d9d4f495e875a2e075a1a4a6e1b9770f" category="cell">46</block>
+  <block id="6bc24fc1ab650b25b4114e93a98f1eba" category="cell">736</block>
+  <block id="67c6a1e7ce56d3d6fa748ab6d9af3fd7" category="cell">47</block>
+  <block id="a1d33d0dfec820b41b54430b50e96b5c" category="cell">752</block>
+  <block id="d1b624f9e54d26f767a5c6b47d9b8bd1" category="cell">3,008</block>
+  <block id="f457c545a9ded88f18ecee47145a72c0" category="cell">49</block>
+  <block id="fc8001f834f6a5f0561080d134d53d29" category="cell">784</block>
+  <block id="206dd327ff78959436387abeb90993b4" category="cell">3,136</block>
+  <block id="c0c7c76d30bd3dcaefc96f40275bdc0a" category="cell">50</block>
+  <block id="7a53928fa4dd31e82c6ef826f341daec" category="cell">800</block>
+  <block id="2838023a778dfaecdc212708f721b788" category="cell">51</block>
+  <block id="43fa7f58b7eac7ac872209342e62e8f1" category="cell">816</block>
+  <block id="6b3910c5f8852c3c30def4f020546d57" category="cell">3,264</block>
+  <block id="9a1158154dfa42caddbd0694a4e9bdc8" category="cell">52</block>
+  <block id="d82c8d1619ad8176d665453cfb2e55f0" category="cell">53</block>
+  <block id="362e80d4df43b03ae6d3f8540cd63626" category="cell">848</block>
+  <block id="46a5c57c26aa123579e97dcaadbc7c18" category="cell">3,392</block>
+  <block id="a684eceee76fc522773286a895bc8436" category="cell">54</block>
+  <block id="1fc214004c9481e4c8073e85323bfd4b" category="cell">864</block>
+  <block id="b53b3a3d6ab90ce0268229151c9bde11" category="cell">55</block>
+  <block id="1f50893f80d6830d62765ffad7721742" category="cell">880</block>
+  <block id="7a4a23bb30197f2a80c076cb01b2fa05" category="cell">3,520</block>
+  <block id="9f61408e3afb633e50cdf1b20de6f466" category="cell">56</block>
+  <block id="72b32a1f754ba1c09b3695e0cb6cde7f" category="cell">57</block>
+  <block id="2a9d121cd9c3a1832bb6d2cc6bd7a8a7" category="cell">912</block>
+  <block id="1cd253a16c59c151a850058a2fb45048" category="cell">3,648</block>
+  <block id="66f041e16a60928b05a7e228a89c3799" category="cell">58</block>
+  <block id="d045c59a90d7587d8d671b5f5aec4e7c" category="cell">928</block>
+  <block id="093f65e080a295f8076b1c5722a46aa2" category="cell">59</block>
+  <block id="64223ccf70bbb65a3a4aceac37e21016" category="cell">944</block>
+  <block id="085de5f9b74520ffc33f61eee5ceccb5" category="cell">3,776</block>
+  <block id="072b030ba126b2f4b2374f342be9ed44" category="cell">60</block>
+  <block id="7f39f8317fbdb1988ef4c628eba02591" category="cell">61</block>
+  <block id="9c01802ddb981e6bcfbec0f0516b8e35" category="cell">976</block>
+  <block id="3940498a028fde51f06fa4cde9e50415" category="cell">3,904</block>
+  <block id="44f683a84163b3523afe57c2e008bc8c" category="cell">62</block>
+  <block id="860320be12a1c050cd7731794e231bd3" category="cell">992</block>
+  <block id="03afdbd66e7929b125f8597834fa83a4" category="cell">63</block>
+  <block id="a05e4b899cf743ddd918378a76eac8e9" category="cell">1,008</block>
+  <block id="9e4b5af50e6a366d8d86df8387c3a565" category="cell">4,032</block>
+  <block id="fc490ca45c00b1249bbe3554a4fdf6fb" category="cell">65</block>
+  <block id="509ac89bed3b5145496da59f08c40d6d" category="cell">1,040</block>
+  <block id="cd3ed66a43a07436c3ad4004455146fa" category="cell">4,160</block>
+  <block id="3295c76acbf4caaed33c36b1b5fc2cb1" category="cell">66</block>
+  <block id="025feabccb15b838c0aa44d506a0c9d6" category="cell">1,056</block>
+  <block id="735b90b4568125ed6c3f678819b6e058" category="cell">67</block>
+  <block id="f41e86d0228dc7e98791219608c15e1a" category="cell">1,072</block>
+  <block id="e12dc67763b9a83e57fbdefec9c34fbe" category="cell">4,288</block>
+  <block id="a3f390d88e4c41f2747bfa2f1b5f87db" category="cell">68</block>
+  <block id="14bfa6bb14875e45bba028a21ed38046" category="cell">69</block>
+  <block id="2edf192feb13fed040b98437b7c33fe4" category="cell">1,104</block>
+  <block id="f68705e07feef5698cad56559f238036" category="cell">4,416</block>
+  <block id="7cbbc409ec990f19c78c75bd1e06f215" category="cell">70</block>
+  <block id="5048b05ed2c0a5c28962ee489c5735ba" category="cell">1,120</block>
+  <block id="e2c420d928d4bf8ce0ff2ec19b371514" category="cell">71</block>
+  <block id="2bdfdb04330a310f641722ad9b91da04" category="cell">1,136</block>
+  <block id="32bb90e8976aab5298d5da10fe66f21d" category="cell">72</block>
+  <block id="d2ddea18f00665ce8623e36bd4e3c7c5" category="cell">73</block>
+  <block id="69a206ef4a9fe2be7093b3a6a9860cc7" category="cell">1,168</block>
+  <block id="ad61ab143223efbc24c7d2583be69251" category="cell">74</block>
+  <block id="0d5f5715f3dd10192b0cf94a13a19a4b" category="cell">1,184</block>
+  <block id="d09bf41544a3365a46c9077ebb5e35c3" category="cell">75</block>
+  <block id="bc82c542d7228d85b06c977c78cb3f48" category="cell">1,200</block>
+  <block id="fbd7939d674997cdb4692d34de8633c4" category="cell">76</block>
+  <block id="28dd2c7955ce926456240b2ff0100bde" category="cell">77</block>
+  <block id="b53361efb8d974b1650dacdf8cfb7ea1" category="cell">1,232</block>
+  <block id="35f4a8d465e6e1edc05f3d8ab658c551" category="cell">78</block>
+  <block id="f9259e8f14e952df0f8855dbf5281085" category="cell">1,248</block>
+  <block id="d1fe173d08e959397adf34b1d77e88d7" category="cell">79</block>
+  <block id="68c5694ab439f927c54dd6e31d93556b" category="cell">1,264</block>
+  <block id="43ec517d68b6edd3015b3edc9a11367b" category="cell">81</block>
+  <block id="7d42f60239bc3d3efa15de0f608f56e1" category="cell">1,296</block>
+  <block id="9778d5d219c5080b9a6a17bef029331c" category="cell">82</block>
+  <block id="eba2f9ba8a8dad26362a4a3fe2eb174f" category="cell">1,312</block>
+  <block id="fe9fc289c3ff0af142b6d3bead98a923" category="cell">83</block>
+  <block id="ff0b19b22f8d89f3584367a37d312d87" category="cell">1,328</block>
+  <block id="68d30a9594728bc39aa24be94b319d21" category="cell">84</block>
+  <block id="3ef815416f775098fe977004015c6193" category="cell">85</block>
+  <block id="9348df72c44b30c92f21c45bf60c134a" category="cell">1,360</block>
+  <block id="93db85ed909c13838ff95ccfa94cebd9" category="cell">86</block>
+  <block id="9174cb2ab6b0e84a25d9860c030731c8" category="cell">1,376</block>
+  <block id="c7e1249ffc03eb9ded908c236bd1996d" category="cell">87</block>
+  <block id="77d42bfaff62ddcf6cc3aae13aa0cc6e" category="cell">1,392</block>
+  <block id="2a38a4a9316c49e5a833517c45d31070" category="cell">88</block>
+  <block id="7647966b7343c29048673252e490f736" category="cell">89</block>
+  <block id="27014f48b87d72edd8a665f08e889d5f" category="cell">1,424</block>
+  <block id="8613985ec49eb8f757ae6439e879bb2a" category="cell">90</block>
+  <block id="5533cffca7ce34e5c108e9bf7f72fbb0" category="cell">1,440</block>
+  <block id="54229abfcfa5649e7003b83dd4755294" category="cell">91</block>
+  <block id="4a978f81d22037721b213fb8408f6472" category="cell">1,456</block>
+  <block id="92cc227532d17e56e07902b254dfad10" category="cell">92</block>
+  <block id="98dce83da57b0395e163467c9dae521b" category="cell">93</block>
+  <block id="b83f104e5c1f891a958af843fec85b56" category="cell">1,488</block>
+  <block id="f4b9ec30ad9f68f89b29639786cb62ef" category="cell">94</block>
+  <block id="197037d3aa278839fd3e8ba3e6ff29fb" category="cell">1,504</block>
+  <block id="812b4ba287f5ee0bc9d43bbf5bbe87fb" category="cell">95</block>
+  <block id="e5a0bd6a23e4860bd04bbc6da5a2a010" category="cell">1,520</block>
+  <block id="e2ef524fbf3d9fe611d5a8e90fefdc9c" category="cell">97</block>
+  <block id="363f8c34a0b6c80a00e0b12482cf3455" category="cell">1,552</block>
+  <block id="ed3d2c21991e3bef5e069713af9fa6ca" category="cell">98</block>
+  <block id="7168998a626bd21d89aab5103a9a2c22" category="cell">1,568</block>
+  <block id="ac627ab1ccbdb62ec96e702f07f6425b" category="cell">99</block>
+  <block id="5d3ad0ff825f78b6dda0692f7d7c67bc" category="cell">1,584</block>
+  <block id="f899139df5e1059396431415e770c6dd" category="cell">100</block>
+  <block id="5504977cb47d642da3d1264eefb7edda" category="section-title">Ejemplo 1</block>
+  <block id="d045d6be14ea6ece270bf5a693420dcc" category="paragraph">Por ejemplo, su aplicación requiere 25 TB de capacidad y 100 MB/s de ancho de banda. Con 25 TB de capacidad, el nivel de servicio estándar proporcionaría 400 MB/s de ancho de banda a un coste de 2,500 $ (estimación: Ver precio actual), lo que convierte a Standard en el nivel de servicio más adecuado en este caso.</block>
+  <block id="96eade91ea8ad3a768b45fae66e4a317" category="inline-image-macro">Nivel de servicio y selección de capacidad, ejemplo 1</block>
+  <block id="fa1e629ff9f8ba28a5b87f520d0f978b" category="paragraph"><block ref="fa1e629ff9f8ba28a5b87f520d0f978b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5f3a8aa007370d00f3fd3b293a6a1118" category="section-title">Ejemplo 2</block>
+  <block id="7d4339c2a666cceff7075f651f077e99" category="paragraph">Por ejemplo, su aplicación requiere 12 TB de capacidad y 800 MB/s de ancho de banda máximo. Aunque el nivel de servicio extremo puede satisfacer las demandas de la aplicación con el objetivo de 12 TB, es más rentable (estimación: Consulte los precios actuales) seleccionar 13 TB en el nivel de servicio Premium.</block>
+  <block id="47d1178d43da1c44b8c4b656a839d0b9" category="inline-image-macro">Nivel de servicio y selección de capacidad, ejemplo 2</block>
+  <block id="fdd6098304bebbe4ab182205872c90df" category="paragraph"><block ref="fdd6098304bebbe4ab182205872c90df" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5876c30cdb96c38d4cc2497feffde111" category="summary">Es posible crear una política de Snapshot para cada volumen para recuperar o restaurar todo el contenido de un volumen desde un momento anterior. También puede crear una snapshot bajo demanda de un volumen de cloud cuando sea necesario.</block>
+  <block id="bf7d38473ac37a5a084d9d1f21a4002c" category="doc">Permite gestionar snapshots de Cloud Volumes</block>
+  <block id="2530ad97c013f5d8d9c69004a4e7ee67" category="section-title">Crear una snapshot bajo demanda</block>
+  <block id="377828daafe235f0aafbc80626a92a44" category="paragraph">Es posible crear una copia de Snapshot bajo demanda de un volumen de cloud para crear una copia de Snapshot con el estado actual del volumen.</block>
+  <block id="bb06f880c297b34268ea12d1602837bb" category="list-text">Pase el ratón sobre el volumen y haga clic en *Crear una copia de instantánea*.</block>
+  <block id="f6abfc5070e6bcda72d651ecad906489" category="list-text">Introduzca un nombre para la instantánea o utilice el nombre generado automáticamente y haga clic en *Crear*.</block>
+  <block id="2209a54e85463699d44111ce0c0a236a" category="inline-image-macro">Captura de pantalla de la selección de la copia snapshot a restaurar un volumen nuevo</block>
+  <block id="f989d58bb69770d84593492ff494f094" category="paragraph"><block ref="f989d58bb69770d84593492ff494f094" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e5424232e5c3cbc0b77accf10fc38470" category="section-title">Crear o modificar una política de Snapshot</block>
+  <block id="4fec62b4aa71f93e589147ab337d3a3a" category="paragraph">Es posible crear o modificar una política de Snapshot según sea necesario para un volumen de cloud. La política de Snapshot se define en la pestaña _Snapshot Policy_ al crear un volumen o al editar un volumen.</block>
+  <block id="e7869c8f9e6db9876598b0ae71814661" category="list-text">Pase el ratón sobre el volumen y haga clic en *Editar*.</block>
+  <block id="13936fb1e8cab81aa5c50bc2a7991029" category="list-text">En la ficha _Snapshot Policy_, mueva el control deslizante Habilitar instantáneas a la derecha.</block>
+  <block id="6fcb64b90c6b69153987bd2a5934500e" category="list-text">Defina la programación para las Snapshot:</block>
+  <block id="0c8182bf573f25aa41ea1b97ef990daf" category="list-text">Seleccione la frecuencia: *Hourly*, *Daily*, *Weekly* o *Monthly*</block>
+  <block id="95f0f96e7a13d18ec4b4cc683cac354a" category="list-text">Seleccione el número de snapshots que desea conservar.</block>
+  <block id="d83574476baea70ecfe273fcb08a92b1" category="list-text">Seleccione el día, la hora y los minutos en que se debe realizar la copia de Snapshot.</block>
+  <block id="23643dc2c2630e1cd190257bc60fe38e" category="inline-image-macro">Captura de pantalla de una política Snapshot configurada</block>
+  <block id="a88d31c8b3d36cada7ac3f645dbdd24b" category="paragraph"><block ref="a88d31c8b3d36cada7ac3f645dbdd24b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="559ab4c9d098436cfbf33391cfeecf7f" category="list-text">Haga clic en *Añadir volumen* o *Actualizar volumen* para guardar la configuración de la directiva.</block>
+  <block id="c97414d9e21703e37b875d9f1d8dfb74" category="section-title">Deshabilitar una política de Snapshot</block>
+  <block id="f2dd955514c60fad76437ba0f7550a7f" category="paragraph">Puede deshabilitar una política de Snapshot para detener la creación de copias Snapshot durante un breve período de tiempo mientras se conserva la configuración de la política de Snapshot.</block>
+  <block id="7a732251673ef876881925c7f8facaa0" category="list-text">En la ficha _Snapshot Policy_, mueva el control deslizante Habilitar instantáneas a la izquierda.</block>
+  <block id="39e4d7ad6415acefc633ce23184ef5d5" category="inline-image-macro">Captura de pantalla del botón de política de instantánea en la posición desactivada</block>
+  <block id="bcbed048badd671015bc9a700a9ee184" category="paragraph"><block ref="bcbed048badd671015bc9a700a9ee184" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fc220eb1d5572bf36eac03104db8fd04" category="list-text">Haga clic en *Actualizar volumen*.</block>
+  <block id="0932c32fdddde924b270a62a2ae2cd0e" category="paragraph">Si desea volver a activar la directiva de instantáneas, mueva el control deslizante Activar instantáneas a la derecha y haga clic en *Actualizar volumen*.</block>
+  <block id="efb44cfe1d5b8d9954ea045385675c66" category="section-title">Eliminar una copia de Snapshot</block>
+  <block id="29ff8f51ba92d1665f7d969f23531c0e" category="paragraph">Las snapshots se pueden eliminar de la página Volumes.</block>
+  <block id="7552d0e963760ace00d752fb123989a3" category="list-text">Pase el ratón sobre el volumen y haga clic en *Eliminar una copia Snapshot*.</block>
+  <block id="b8d7a446f6dbe49089b4c415dc2e8037" category="list-text">Seleccione la instantánea en la lista desplegable y haga clic en *Eliminar*.</block>
+  <block id="9c673ecd9d0dddf896cc55f2127056d8" category="inline-image-macro">Captura de pantalla de la selección de la copia snapshot que se va a eliminar</block>
+  <block id="41a98f64ec73ced976239a7861d67e1c" category="paragraph"><block ref="41a98f64ec73ced976239a7861d67e1c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e1899e67aa8aec45bef5dc600fc2ae14" category="list-text">En el cuadro de diálogo de confirmación, haga clic en *Eliminar*.</block>
+  <block id="f7fd570b54090ae0f43a226147fae194" category="section-title">Revertir un volumen a partir de una copia de Snapshot</block>
+  <block id="b84d400414400c87a14ad22cf930e8a0" category="paragraph">Es posible revertir un volumen a un momento específico anterior desde una snapshot existente.</block>
+  <block id="722fda043af9bcf84505c8529d00eefe" category="paragraph">Si se revierte un volumen, el contenido de la copia Snapshot sobrescribe la configuración de volumen existente. Se pierden todos los cambios que se realizaron en los datos del volumen después de la creación de la copia de Snapshot.</block>
+  <block id="5e69623e5ef5b2074e9208bfd305062a" category="paragraph">Tenga en cuenta que los clientes no necesitan volver a montar el volumen después de la operación de reversión.</block>
+  <block id="430f869f4a80b187c9fcd338d669738d" category="list-text">Pase el ratón sobre el volumen y haga clic en *revertir volumen a Snapshot*.</block>
+  <block id="14f4ef9542ad6c9c0a9a81b85223c52f" category="list-text">Seleccione la instantánea que desea utilizar para restaurar el volumen existente de la lista desplegable y haga clic en *revertir*.</block>
+  <block id="30ff16b884c49625bf44c57000849c05" category="inline-image-macro">Captura de pantalla de la selección de la copia snapshot a la que se va a utilizar sobrescriba el volumen existente</block>
+  <block id="69c870ef5a9fde9a9c627d8c46f1737a" category="paragraph"><block ref="69c870ef5a9fde9a9c627d8c46f1737a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cffa933a10458e8374fbef2e21507c9d" category="summary">Cloud Volumes Service de NetApp para AWS es un servicio de archivos nativo del cloud que proporciona volúmenes NAS a través de NFS y SMB con rendimiento all-flash. Este servicio permite que cualquier carga de trabajo, incluidas aplicaciones heredadas, se ejecute en el cloud de AWS.</block>
+  <block id="6681a3ff8cf8540f05355c680f9f8fd5" category="doc">Obtenga más información sobre Cloud Volumes Service para AWS</block>
+  <block id="ab36edc279a45056b82d27c06e02164b" category="admonition">Con el lanzamiento de <block ref="96821e1e659978c978732a5dc24298ac" category="inline-link-macro-rx"></block>, Ya no puede crear nuevos entornos de trabajo de Cloud Volumes Service para AWS en BlueXP (anteriormente Cloud Manager). Sin embargo, si ha añadido anteriormente entornos de trabajo de Cloud Volumes Service para AWS a BlueXP, podrá continuar creando y gestionando volúmenes.</block>
+  <block id="2756711ac396119b969ba6b553ad278e" category="section-title">Ventajas de usar Cloud Volumes Service para AWS</block>
+  <block id="55208bdbb7b4fa51eb7ae63a26d71791" category="paragraph">Cloud Volumes Service para AWS ofrece las siguientes ventajas:</block>
+  <block id="ece95ef94c2dfbf3d6cac29bd306038d" category="list-text">Servicio totalmente gestionado, por lo tanto, no es necesario configurar ni gestionar dispositivos de almacenamiento</block>
+  <block id="51d18a4be065ddd160b5f764d2f9c9f1" category="list-text">Compatibilidad con NFSv3 y NFSv4.1, y los protocolos NAS de SMB 3.0 y 3.1.1</block>
+  <block id="cdcd5a58d731470edacf43406346e5d2" category="list-text">Acceso seguro a instancias de Linux y de Windows Elastic Container Service (ECS), con soporte incluido:</block>
+  <block id="2d284a6be9a90f9d7d98ef4f9543b6b1" category="list-text">Amazon Linux 2, Red Hat Enterprise Linux 7.5, SLES 12 SP3 y Ubuntu 16.04 LTS</block>
+  <block id="b5ef382c617bf480eb64c50a38e3cbfa" category="list-text">Windows Server 2008 R2, Windows Server 2012 R2 y Windows Server 2016</block>
+  <block id="17dfcb3ae68171678fbe713c5cfb13eb" category="list-text">Opción de precios incluidos y de pago por uso</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Coste</block>
+  <block id="664db7df843ac9bc5b1cdefb4e83298d" category="paragraph">Los volúmenes creados por Cloud Volumes Service para AWS se cobran según su suscripción al servicio, no a través de BlueXP.</block>
+  <block id="6b223b0fc739859c6887ae5889686823" category="paragraph">Para descubrir un volumen o región de Cloud Volumes Service para AWS, no hay ningún coste adicional de BlueXP.</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">Inicio rápido</block>
+  <block id="a024d4a2919f7ce59bdfa73cf09cf70c" category="paragraph">Empiece rápidamente siguiendo estos pasos o vaya a las secciones siguientes para obtener información completa.</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">Uno</block>
+  <block id="60afd0ad9e3c0e83604b54dde769e201" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Verifique la compatibilidad con la configuración</block>
+  <block id="e0e199a1997e22c4b14470829cfbc921" category="inline-link">Cloud Volumes Service de NetApp en AWS Marketplace</block>
+  <block id="c972b46d7c158b6cf3944853449694e2" category="paragraph">Debe haber configurado AWS para Cloud Volumes Service y estar suscrito a una de las<block ref="b4e3d74af85b05fca693589abeec4d57" category="inline-link-rx"></block> Tener un entorno de trabajo CVS para AWS configurado en BlueXP para crear y gestionar volúmenes.</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">Dos</block>
+  <block id="5011028bd38e8157d5490f4768f4a2fb" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> Cree, monte y gestione volúmenes de cloud</block>
+  <block id="aa5898cc83119d9aeb2c5dfe0291e3f9" category="paragraph">Con un entorno de trabajo CVS para AWS existente, puede crear, montar y gestionar volúmenes de cloud para las suscripciones existentes de CVS para AWS mediante BlueXP.</block>
+  <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">Obtener ayuda</block>
+  <block id="aeac59d6b7540a01d3242406db39d355" category="paragraph">Utilice el chat de BlueXP para preguntas de servicio general.</block>
+  <block id="5165f8dcc441652561153c961b6647c1" category="inline-link">Estos pasos se explican aquí</block>
+  <block id="e09ee34cc358ad27bcd0168a326a4e1d" category="paragraph">Para los problemas de soporte técnico asociados con sus volúmenes de cloud, use su número de serie “930” de 20 dígitos que se encuentra en la pestaña "Soporte" de la interfaz de usuario de Cloud Volumes Service. Utilice este ID de soporte cuando abra un ticket web o llame para recibir asistencia. Asegúrese de activar el número de serie de Cloud Volumes Service para recibir soporte desde la interfaz de usuario de Cloud Volumes Service.<block ref="b121ed8af2c0df81e933acf49e134b07" category="inline-link-rx"></block>.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">Limitaciones</block>
+  <block id="278aaa5450dc990f0168420cc3d5301c" category="list-text">BlueXP no admite la replicación de datos entre entornos de trabajo cuando se usan volúmenes de Cloud Volumes Service.</block>
+  <block id="61e59a1df0d876683274abc91ec5837b" category="list-text">No es posible eliminar su suscripción a Cloud Volumes Service para AWS de BlueXP. Solo puede hacerlo a través de la interfaz de Cloud Volumes Service para AWS.</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">Enlaces relacionados</block>
+  <block id="4e1ccd1be2f7a41409e6ac6c96aeceba" category="inline-link">NetApp BlueXP: Cloud Volumes Service para AWS</block>
+  <block id="125604a6f60f72760dfc431aefd5eccc" category="list-text"><block ref="125604a6f60f72760dfc431aefd5eccc" category="inline-link-rx"></block></block>
+  <block id="a56dd8ec8161b0604a81c32a36cb8a74" category="inline-link">Documentación de Cloud Volumes Service de NetApp para AWS</block>
+  <block id="c9075ccc4ec7bc51de5587ffae0e2f7a" category="list-text"><block ref="c9075ccc4ec7bc51de5587ffae0e2f7a" category="inline-link-rx"></block></block>
+  <block id="5b618ec153a442d925e7e3cc93bb65d8" category="summary">Si utiliza servidores de Windows Active Directory (AD) con volúmenes de cloud, debe familiarizarse con la guía de la configuración del grupo de seguridad de AWS. Los ajustes permiten que los volúmenes de cloud se integren correctamente con AD.</block>
+  <block id="c546611c5f302cd6f19dc2dba0bcf1b0" category="paragraph">De forma predeterminada, el grupo de seguridad de AWS aplicado a una instancia de EC2 Windows no contiene reglas entrantes para ningún protocolo excepto RDP. Debe agregar reglas a los grupos de seguridad asociados a cada instancia de Windows AD para habilitar la comunicación entrante desde Cloud Volumes Service. Los puertos necesarios son los siguientes:</block>
+  <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">Servicio</block>
+  <block id="60aaf44d4b562252c04db7f98497e9aa" category="cell">Puerto</block>
+  <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">Protocolo</block>
+  <block id="5ca2a54c1065dd7d05391f89a278ad2a" category="cell">Servicios web DE ANUNCIOS</block>
+  <block id="2747e3c644b9a085cd4d3a7718b16024" category="cell">9389</block>
+  <block id="b136ef5f6a01d816991fe3cf7a6ac763" category="cell">TCP</block>
+  <block id="ed5f2bdecbd4bd349d09412d1ff6a6fb" category="cell">DNS</block>
+  <block id="f5ef036b4d8b630721e51fe23489fbc9" category="cell">UDP</block>
+  <block id="5985e830fae65f37a46ae22075a4ca48" category="cell">ICMPv4</block>
+  <block id="382b0f5185773fa0f67a8ed8056c7759" category="cell">N.A.</block>
+  <block id="e0b221d2923b98ecd9ef35504d787365" category="cell">Respuesta de eco</block>
+  <block id="87b3695bfd6f672e2c7c4da7ca2b46a8" category="cell">Kerberos</block>
+  <block id="2363dee608bcd9f6ce7f980bfdad5789" category="cell">LDAP</block>
+  <block id="c86a7ee3d8ef0b551ed58e354a836f2b" category="cell">389</block>
+  <block id="a4d92e2cd541fca87e4620aba658316d" category="cell">3268</block>
+  <block id="b19cdd862134a63196f20f8257d2834a" category="cell">Nombre NetBIOS</block>
+  <block id="013d407166ec4fa56eb1e1f8cbe183b9" category="cell">138</block>
+  <block id="56440062188d73f60d350ea349366299" category="cell">SAM/LSA</block>
+  <block id="67f7fb873eaf29526a11a9b7ac33bfac" category="cell">445</block>
+  <block id="3f0dca2433e91d5f3ab7109c68143794" category="cell">LDAP seguro</block>
+  <block id="c5ab0bc60ac7929182aadd08703f1ec6" category="cell">636</block>
+  <block id="c91e3483cf4f90057d02aa492d2b25b1" category="cell">3269</block>
+  <block id="010b192f04e8eee11d74c4802cc24093" category="cell">w32time</block>
+  <block id="202cb962ac59075b964b07152d234b70" category="cell">123</block>
+  <block id="6d0cda859aaf15ba029d2fa7848c128f" category="paragraph">Si va a implementar y administrar los controladores de dominio de instalación de AD y los servidores miembro en una instancia de AWS EC2, necesitará varias reglas de grupo de seguridad para permitir el tráfico de Cloud Volumes Service. A continuación se muestra un ejemplo de cómo implementar estas reglas para aplicaciones AD como parte de la plantilla AWS CloudFormation.</block>
+  <block id="442f77e0ced841233f8b0199385795db" category="summary">Cloud Volumes Service de NetApp para AWS es un servicio de archivos nativo del cloud que proporciona volúmenes NAS a través de NFS y SMB con rendimiento all-flash. Esta documentación describe cómo gestionar Cloud Volumes Service para AWS mediante NetApp BlueXP.</block>
+  <block id="0f707acb7e2394436734d74b239bd7a4" category="doc">Documentación de Cloud Volumes Service para AWS</block>
+  <block id="a696ff8c895f6eed266509c3ab2452a9" category="summary">Descubra las novedades de Cloud Volumes Service para AWS.</block>
+  <block id="780371a55c5f8fb4b8ad9c591f1ca785" category="doc">Novedades de Cloud Volumes Service para AWS</block>
+  <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2 de septiembre de 2021</block>
+  <block id="5690692f09ed4eae80e2f6b0bcaddd11" category="section-title">No se pueden crear nuevos entornos de trabajo de Cloud Volumes Service para AWS.</block>
+  <block id="69edd34c7aaa1111300d5b174c15fd42" category="paragraph">Con el lanzamiento de <block ref="f5299bffecc7e118b61541de961fc5aa" category="inline-link-macro-rx"></block>, Ya no puede crear nuevos entornos de trabajo de Cloud Volumes Service para AWS en BlueXP. Sin embargo, si ha añadido anteriormente entornos de trabajo de Cloud Volumes Service para AWS a BlueXP, podrá continuar creando y gestionando volúmenes.</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Antes de poder abrir un caso de soporte con el soporte técnico de NetApp, debe añadir una cuenta de la página de soporte de NetApp a BlueXP y, a continuación, registrarse para recibir soporte.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Regístrese para recibir soporte</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">Antes de poder abrir un caso de soporte con el soporte técnico de NetApp, debe añadir una cuenta del sitio de soporte de NetApp (NSS) a BlueXP y, a continuación, registrarse para recibir soporte.</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">Soporte para soluciones de proveedores cloud</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">Para obtener asistencia técnica sobre las siguientes soluciones de proveedores de nube que ha integrado en BlueXP, consulte “obtención de ayuda” en la documentación de BlueXP para ese producto.</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service para Google Cloud</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Información general del registro de soporte</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Existen dos formas de registro para activar el derecho de asistencia:</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">Registro de la suscripción al soporte de ID de cuenta de BlueXP (número de serie de 20 dígitos xxxx960xxxxx que se encuentra en la página Recursos de asistencia técnica de BlueXP).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Esto sirve como su ID de suscripción de soporte único para cualquier servicio dentro de BlueXP. Debe registrarse cada suscripción de asistencia técnica a nivel de cuenta de BlueXP.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrar los números de serie de Cloud Volumes ONTAP asociados con una suscripción en el mercado de su proveedor de cloud (estos son números de serie de 20 dígitos 909201xxxxxxxx).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Estos números de serie se denominan comúnmente _PAYGO serial Numbers_ y son generados por BlueXP en el momento de la implementación de Cloud Volumes ONTAP.</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">El registro de ambos tipos de números de serie permite funcionalidades, como abrir tickets de soporte y la generación automática de casos.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">La forma de registrarse depende de si es un cliente o partner nuevo o existente.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">Cliente o partner existente</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">Como cliente o partner de NetApp, puede usar su cuenta de SSO del sitio de soporte de NetApp (NSS) para realizar estos registros anteriormente. En el Panel de soporte, BlueXP proporciona una página *NSS Management* en la que puede agregar su cuenta NSS. Una vez que agregue su cuenta NSS, BlueXP registra automáticamente estos números de serie.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">Aprenda a añadir su cuenta de NSS</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">Nuevo en NetApp</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">Si es totalmente nuevo en NetApp, debe completar un registro una vez del número de serie de su ID de cuenta de BlueXP en el sitio de registro de soporte de NetApp. Una vez completado este registro y cree una nueva cuenta de NSS, puede utilizar esta cuenta en BlueXP para registrarse automáticamente en el futuro.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">Aprenda a registrarse en NetApp</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">Agregue una cuenta NSS a BlueXP</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">La consola de soporte le permite añadir y gestionar sus cuentas de la página de soporte de NetApp para utilizarlas con BlueXP.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si tiene una cuenta de nivel de cliente, puede añadir una o varias cuentas de NSS.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si tiene una cuenta de partner o distribuidor, puede añadir una o varias cuentas de NSS, pero no se podrán añadir junto con las cuentas de nivel de cliente.</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">En la parte superior derecha de la consola de BlueXP, haga clic en el icono Ayuda y seleccione *Soporte*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Una captura de pantalla del menú Ayuda en el que Soporte es la primera opción de la lista</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Haga clic en *Administración de NSS &gt; Agregar cuenta de NSS*.</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Cuando se le pregunte, haga clic en *continuar* para que se le redirija a una página de inicio de sesión de Microsoft.</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utiliza Microsoft Azure Active Directory como proveedor de identidades para servicios de autenticación específicos para soporte y licencias.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">En la página de inicio de sesión, proporcione su dirección de correo electrónico registrada en el sitio de soporte de NetApp y contraseña para realizar el proceso de autenticación.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Estas acciones permiten a BlueXP utilizar su cuenta NSS para cosas como descargas de licencias, verificación de actualizaciones de software y futuros registros de soporte.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Tenga en cuenta lo siguiente:</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">La cuenta debe ser una cuenta de nivel de cliente (no una cuenta de invitado o temporal).</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Icono de tres puntos horizontales</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">Después de iniciar sesión correctamente, NetApp almacenará el nombre de usuario de NSS. Se trata de un ID generado por el sistema que se asigna a su correo electrónico. En la página *NSS Management*, puede mostrar su correo electrónico desde <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> de windows</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">Si alguna vez necesita actualizar sus tokens de credenciales de inicio de sesión, también hay una opción *Actualizar credenciales* en la <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> de windows Con esta opción se le solicita que vuelva a iniciar sesión.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">Regístrese en NetApp</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">La forma de registrarse para recibir soporte de NetApp depende de si ya tiene una cuenta del sitio de soporte de NetApp (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Cliente existente con una cuenta de NSS</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Si es cliente de NetApp con una cuenta de NSS, solo tiene que registrarse para recibir soporte a través de BlueXP.</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Si aún no lo ha hecho, agregue su cuenta NSS a BlueXP.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">En la página *Recursos*, haga clic en *Registrar para asistencia*.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">Captura de pantalla que muestra un número de serie de la cuenta y la opción Registrar para Soporte</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Cliente existente pero no cuenta NSS</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Si ya es cliente de NetApp con licencias y números de serie existentes pero _no_ cuenta de NSS, solo tiene que crear una cuenta de NSS.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulario de registro de usuarios del sitio de soporte de NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Complete el para crear una cuenta en la página de soporte de NetApp<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Asegúrese de seleccionar el nivel de usuario adecuado, que normalmente es *Cliente/Usuario final de NetApp*.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Asegúrese de copiar el número de serie de la cuenta BlueXP (960xxxx) utilizado anteriormente para el campo de número de serie. Esto agilizará el procesamiento de la cuenta.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Totalmente nuevo en NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Si es totalmente nuevo en NetApp y no tiene una cuenta de NSS, siga cada paso que se indica a continuación.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Busque el número de serie de su ID de cuenta en la página Support Registration.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Sitio de registro de soporte de NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Vaya a.<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> Y seleccione *no soy un cliente registrado de NetApp*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Rellene los campos obligatorios (aquellos con asteriscos rojos).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">En el campo *línea de productos*, seleccione *Cloud Manager* y, a continuación, seleccione el proveedor de facturación correspondiente.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copie el número de serie de su cuenta desde el paso 2 anterior, complete la comprobación de seguridad y confirme que ha leído la Política de privacidad de datos global de NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Se envía inmediatamente un correo electrónico al buzón de correo para finalizar esta transacción segura. Asegúrese de comprobar sus carpetas de spam si el correo electrónico de validación no llega en pocos minutos.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirme la acción desde el correo electrónico.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">Confirmar envía su solicitud a NetApp y recomienda que cree una cuenta en la página de soporte de NetApp.</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">Asegúrese de copiar el número de serie de la cuenta (960xxxx) utilizado anteriormente para el campo de número de serie. Esto agilizará el procesamiento de la cuenta.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp debería ponerse en contacto con usted durante este proceso. Este es un ejercicio de incorporación puntual para nuevos usuarios.</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">Una vez que tenga su cuenta de la página de soporte de NetApp, podrá navegar a BlueXP para añadir esta cuenta de NSS para futuros registros.</block>
+  <block id="b454c4191e92c73442889214b58f36be" category="sidebar">Documentos de Cloud Volumes Service para AWS</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de la versión</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Manos a la obra</block>
+  <block id="2a6b62203da55d418c8d3f55db46fd03" category="sidebar">Utilice Cloud Volumes Service para AWS</block>
+  <block id="5a118d01c740f85c0a2216350cef40eb" category="sidebar">Ponga en marcha y gestione volúmenes de cloud</block>
+  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">Conceptos</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
+  <block id="5fef629b836b60819e0c0ce49cd2b9d7" category="sidebar">Novedades</block>
+  <block id="9038e7cfcfe9bb9df9afd31371070be8" category="sidebar">Gestione los volúmenes existentes</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs y comunidad</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidad de NetApp</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog de BlueXP</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Seminarios web sobre el cloud</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toda la documentación de BlueXP</block>
+</blocks>

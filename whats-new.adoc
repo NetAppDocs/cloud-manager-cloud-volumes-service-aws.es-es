@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: Descubra las novedades de Cloud Volumes Service para AWS. 
+---
+= Novedades de Cloud Volumes Service para AWS
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Descubra las novedades de Cloud Volumes Service para AWS.
+
+
+
+== 2 de septiembre de 2021
+
+
+
+=== No se pueden crear nuevos entornos de trabajo de Cloud Volumes Service para AWS.
+
+Con el lanzamiento de link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/concept-fsx-aws.html["Amazon FSX para ONTAP"], Ya no puede crear nuevos entornos de trabajo de Cloud Volumes Service para AWS en BlueXP. Sin embargo, si ha añadido anteriormente entornos de trabajo de Cloud Volumes Service para AWS a BlueXP, podrá continuar creando y gestionando volúmenes.

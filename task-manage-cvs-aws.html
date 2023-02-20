@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head class="at-element-marker">
+  <title>Gestionar Cloud Volumes Service para AWS | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Gestionar Cloud Volumes Service para AWS | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/es-es/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html" />
+	<meta property="og:description" content="BlueXP le permite crear volúmenes de cloud basados en su suscripción a Cloud Volumes Service para AWS. También puede detectar los volúmenes de cloud que ya s..." />
+  <meta property="og:image" content="https://docs.netapp.com/es-es/cloud-manager-cloud-volumes-service-aws/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="BlueXP le permite crear volúmenes de cloud basados en su suscripción a Cloud Volumes Service para AWS. También puede detectar los volúmenes de cloud que ya s...">
+  <meta name="keywords" content=" cloud volumes service for aws, cloud volumes, create cloud volumes, discover cloud volumes service for aws, delete cloud volumes, cloud volumes service subscription, discover cloud volumes service subscription, access key, secret key, discover region, service level, allowed clients, create snapshots"><!-- Icons -->
+  <link rel="icon" href="/es-es/cloud-manager-cloud-volumes-service-aws/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/es-es/cloud-manager-cloud-volumes-service-aws/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/es-es/cloud-manager-cloud-volumes-service-aws/css/netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/es-es/cloud-manager-cloud-volumes-service-aws/css/landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/es-es/cloud-manager-cloud-volumes-service-aws/css/tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel='stylesheet' href='/es-es/cloud-manager-cloud-volumes-service-aws/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    function addAdobeLaunch(adobeId) {
+      var head = document.getElementsByTagName('head')[0];
+      var adobe = document.createElement("script");
+      adobe.type = "text/plain";
+      adobe.className = "optanon-category-C0002";
+      adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/"+adobeId+".min.js";
+      head.appendChild(adobe);
+    }
+
+    function addGoogleAnalytics(gtagId) {
+      var google = document.createElement("script");
+      google.type = "text/plain";
+      google.className = "optanon-category-C0002";
+      google.src = "https://www.googletagmanager.com/gtag/js?id="+gtagId;
+      var head = document.getElementsByTagName('head')[0];
+      head.appendChild(google);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', gtagId);
+    }
+
+    function addConsent(consentId) {
+      var head = document.getElementsByTagName('head')[0];
+      var onetrustConsent = document.createElement("script");
+      onetrustConsent.type = "text/javascript";
+      onetrustConsent.src = "https://cdn.cookielaw.org/consent/"+consentId+"/OtAutoBlock.js";
+      head.appendChild(onetrustConsent);
+
+      var onetrustScript = document.createElement("script");
+      onetrustScript.type = "text/javascript";
+      onetrustScript.src = "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js";
+      onetrustScript.charset = "UTF-8";
+      onetrustScript.dataset.documentLanguage = "true";
+      onetrustScript.dataset.domainScript = consentId;
+      head.appendChild(onetrustScript);
+    }addConsent("72570c5c-fe30-465f-b0e0-b77f7fb4ae34");
+    addAdobeLaunch("launch-e9ff3acac59f");
+    addGoogleAnalytics("UA-81697994-3");function OptanonWrapper() { }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/na-search.js'></script><script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/na-pagenav.js'></script><script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/na-utility.js'></script>
+  <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/clouddocs.js'></script>
+  <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/toc.js'></script>
+  <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/customscripts.js'></script><script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/es-es/cloud-manager-cloud-volumes-service-aws"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script>
+  <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/custom-dropdown.js'></script>
+  <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/FileSaver.min.js'></script>
+  <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/jszip-utils.min.js'></script>
+  <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/jszip.min.js'></script>
+  <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/pdf-ux.js'></script>
+</head>
+
+
+  <body class role="document" data-flavor="">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/cloud-manager-cloud-volumes-service-aws/issues/new?body=Page%3A%20[Gestionar Cloud Volumes Service para AWS](https://docs.netapp.com/es-es/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/discuss-sm.svg" alt="" class="github-icon" />Solicitar cambios en el documento</a><a target="_blank" href="https://github.com/NetAppDocs/cloud-manager-cloud-volumes-service-aws/blob/main/task-manage-cvs-aws.adoc" class="page-nav-contribute-link" role="button"><img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/edit-sm.svg" alt="" class="github-icon" />Editar en GitHub</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/article-sm.svg" alt="" class="github-icon" />Guía del colaborador</a></div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">EN ESTA PÁGINA</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">Producto y soluciones</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">Asistencia y capacitación</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">Comunidad</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">Blog</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">Historias de clientes</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/company/contact-us/" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" 
+          data-search-html="/es-es/cloud-manager-cloud-volumes-service-aws/search.html"
+          data-type="widget" 
+          data-placeholder="Buscar documentación"
+          data-no-results-found="No se encontraron resultados para {query}"
+          data-did-you-mean="Buscar {suggestion}."
+          data-no-results-found-did-you-mean="No se encontraron resultados para {query}. ¿Quiso decir {suggestion}?"
+          data-results-found="{hitCount} resultados encontrados"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
+          data-sk-es-pf-indexes=""
+          data-flavor=""></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">Español</span>
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/es-es/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/de-de/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/fr-fr/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li></ul>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <!-- End property bar -->
+</header>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" id="sidebar-height">
+      <button id="btn-sidebar-collapse" onclick="hideSidebar()"><img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/collapse.png" alt="Contraer panel de navegación"></button>
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+    <img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/pdf.png" alt="" width="16" height="16"/>PDFs disponibles<span>
+    </span>
+  </a>
+</div>
+<div class="n-pdf-body-container">
+  <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+        
+        
+        
+        <a target="_blank" href="/es-es/cloud-manager-cloud-volumes-service-aws/pdfs/fullsite-sidebar/Documentación_de_Cloud_Volumes_Service_para_AWS.pdf" >
+          <img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/pdf.png" alt="" width="16" height="16"/>PDF de este sitio de documentos</a>
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/es-es/cloud-manager-cloud-volumes-service-aws/pdfs/sidebar/Manos_a_la_obra.pdf" 
+            
+          >
+            <img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/pdf.png" alt="" width="16" height="16"/>
+            Manos a la obra
+          </a>
+          
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/es-es/cloud-manager-cloud-volumes-service-aws/pdfs/sidebar/Utilice_Cloud_Volumes_Service_para_AWS.pdf" 
+            
+          >
+            <img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/pdf.png" alt="" width="16" height="16"/>
+            Utilice Cloud Volumes Service para AWS
+          </a>
+          
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/es-es/cloud-manager-cloud-volumes-service-aws/pdfs/sidebar/Conceptos.pdf" 
+            
+          >
+            <img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/pdf.png" alt="" width="16" height="16"/>
+            Conceptos
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/es-es/cloud-manager-cloud-volumes-service-aws/pdfs/sidebar/Conocimiento_y_apoyo.pdf" 
+            
+          >
+            <img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/pdf.png" alt="" width="16" height="16"/>
+            Conocimiento y apoyo
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+</li></ul>
+  <div class="zip-pdf-link-container" style="display: none;">   
+    <a href="#" id="zipPdf">
+      <img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/pdf-zip.png" alt="" width="16" height="16"/>
+      <pre>Colección de documentos PDF separados<span class="zip-size"></span></pre>
+    </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+</div>
+<script>
+  $("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+  });
+</script><div class="prod-nav" id="product-nav">
+  <a target="_self" class="prod-fam-nav" href="https://docs.netapp.com/es-es/cloud-manager-family/"><img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/left_arrow.png" alt=""><pre>Toda la documentación de BlueXP</pre></a>
+</div><div class="sidebar-nav-container" id="mysidebardiv">
+  <ul id="mysidebar" class="nav"><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Documentos de Cloud Volumes Service para AWS"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/index.html">
+        Documentos de Cloud Volumes Service para AWS
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Notas de la versión"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/whats-new.html">
+        Notas de la versión
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Manos a la obra"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Manos a la obra</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Obtenga más información sobre Cloud Volumes Service para AWS"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/concept-cvs-aws.html">
+        Obtenga más información sobre Cloud Volumes Service para AWS
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Utilice Cloud Volumes Service para AWS"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Utilice Cloud Volumes Service para AWS</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Ponga en marcha y gestione volúmenes de cloud"
+      data-li-level="2#" 
+      class="  active "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html">
+        Ponga en marcha y gestione volúmenes de cloud
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Permite gestionar snapshots de Cloud Volumes"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/task-manage-cloud-volumes-snapshots.html">
+        Permite gestionar snapshots de Cloud Volumes
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Conceptos"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Conceptos</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Los niveles de servicio y la capacidad asignada"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/reference-cvs-service-levels-and-quotas.html">
+        Los niveles de servicio y la capacidad asignada
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configuración del grupo de seguridad de AWS para servidores Windows AD"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/reference-security-groups-windows-ad-servers.html">
+        Configuración del grupo de seguridad de AWS para servidores Windows AD
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Conocimiento y apoyo"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Conocimiento y apoyo</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Regístrese para recibir soporte"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/task-support-registration.html">
+        Regístrese para recibir soporte
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Obtenga ayuda"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/task-get-help.html">
+        Obtenga ayuda
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Avisos legales"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/es-es/cloud-manager-cloud-volumes-service-aws/legal-notices.html">
+        Avisos legales
+      </a></li></ul>
+</div>
+<script>
+  window.onscroll = () => {
+    const value = -40 - (document.body.scrollHeight - (window.innerHeight + document.scrollingElement.scrollTop));
+    
+    document.getElementById("sidebar-height").style.bottom = Math.max(0,value) + "px";
+};
+</script>
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
+
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <div class="ie-utility">
+  <button id="btn-sidebar-expand" onclick="showSidebar()"><img src="/es-es/cloud-manager-cloud-volumes-service-aws/images/expand.png" alt="Expandir panel de navegación"></button>
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
+        </li>
+        
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com/us-en/cloud/">Cloud Docs</a>
+        </li>
+        
+
+        
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com/es-es/cloud-manager-family/">BlueXP</a>
+        </li>
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/es-es/cloud-manager-cloud-volumes-service-aws/">Cloud&nbsp;Volumes&nbsp;Service&nbsp;for&nbsp;AWS</a>
+        </li>
+
+      </ul>
+    </div>
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+      <div class="ie-nmt-disclaimer">
+  <span>
+    <div class="ie-nmt-disclaimer-container">
+      <div class="ie-nmt-disclaimer-icon">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#circle-info">
+        </svg>
+      </div>
+      <div class="ie-nmt-disclaimer-content">
+        <span> Se proporciona el idioma español mediante traducción automática para su comodidad. En caso de alguna inconsistencia, el inglés precede al español. </span>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+  </span>
+</div><div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">Gestionar Cloud Volumes Service para AWS</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2023-02-20 14:04:05 +0000">02/20/2023</time>
+    
+  
+
+<span>Colaboradores
+</span>
+
+
+</p>
+
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>BlueXP le permite crear volúmenes de nube basados en su <a href="https://cloud.netapp.com/cloud-volumes-service-for-aws" target="_blank" rel="noopener">"Cloud Volumes Service para AWS"</a> suscripción. También puede detectar los volúmenes de cloud que ya se crearon desde la interfaz de Cloud Volumes Service y añadirlos a un entorno de trabajo.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/cloud-manager-cloud-volumes-service-aws/images/note.svg" alt="Nota">
+</td>
+<td class="content">
+Con el lanzamiento de <a href="https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html" target="_blank" rel="noopener">"Amazon FSX para ONTAP"</a>, Ya no puede crear nuevos entornos de trabajo CVS para AWS en BlueXP. Sin embargo, si anteriormente había añadido CVS para entornos de trabajo de AWS a BlueXP, puede continuar creando y gestionando volúmenes.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="cree-cloud-volumes">Cree Cloud Volumes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Para las configuraciones donde ya hay volúmenes en el entorno de trabajo de Cloud Volumes Service, puede usar estos pasos para añadir volúmenes nuevos.</p>
+</div>
+<div class="paragraph">
+<p>Para configuraciones sin volúmenes, puede crear su primer volumen directamente desde BlueXP después de configurar su suscripción a Cloud Volumes Service para AWS. En el pasado, el primer volumen se debía crear directamente en la interfaz de usuario de Cloud Volumes Service.</p>
+</div>
+<div class="ulist">
+<div class="title">Antes de empezar</div>
+<ul>
+<li>
+<p>Si desea usar SMB en AWS, debe haber configurado DNS y Active Directory.</p>
+</li>
+<li>
+<p>Cuando planee crear un volumen SMB, debe tener un servidor de Windows Active Directory disponible para el que se pueda conectar. Deberá introducir esta información al crear el volumen. Además, asegúrese de que el usuario Admin puede crear una cuenta de equipo en la ruta de la unidad organizativa (OU) especificada.</p>
+</li>
+<li>
+<p>Necesitará esta información al crear el primer volumen en una nueva región/entorno de trabajo:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID de cuenta de AWS: Identificador de cuenta de Amazon de 12 dígitos sin guiones. Para encontrar su ID de cuenta, consulte este <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/console-account-alias.html" target="_blank" rel="noopener">"Tema de AWS"</a>.</p>
+</li>
+<li>
+<p>Bloque InterDomain Routing (CIDR) sin clase: Bloque IPv4 CIDR sin usar. El prefijo de red debe estar comprendido entre /16 y /28, y también debe estar dentro de los rangos reservados para redes privadas (RFC 1918). No seleccione una red que se superponga con las asignaciones CIDR de VPC.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Pasos</div>
+<ol class="arabic">
+<li>
+<p>Seleccione un entorno de trabajo CVS para AWS y haga clic en <strong>Agregar nuevo volumen</strong>.</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_cvs_aws_cloud.gif" alt="Captura de pantalla de Cloud Volumes Service para AWS en la página entornos de trabajo."></span></p>
+</div>
+</li>
+<li>
+<p>Si va a añadir el primer volumen al entorno de trabajo de la región, tendrá que añadir la información de red de AWS.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Introduzca el rango de IPv4 (CIDR) para la región.</p>
+</li>
+<li>
+<p>Introduzca el ID de cuenta de AWS de 12 dígitos (sin guiones) para conectar su cuenta de Cloud Volumes a su cuenta de AWS.</p>
+</li>
+<li>
+<p>Haga clic en <strong>continuar</strong>.</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_cvs_aws_network_setup.png" alt="Captura de pantalla de la página de configuración de red donde se agrega El ID de cuenta CIDR y AWS"></span></p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>En la página aceptando interfaces virtuales, se describen algunos pasos que deberá realizar después de agregar el volumen para que esté preparado para completar ese paso. Simplemente haga clic en <strong>continuar</strong> de nuevo.</p>
+</li>
+<li>
+<p>En la página Details &amp; Tags, introduzca detalles sobre el volumen:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Escriba un nombre para el volumen.</p>
+</li>
+<li>
+<p>Especifique un tamaño dentro del intervalo de 100 GIB a 90,000 GIB (equivalente a 88 TIBs).</p>
+<div class="paragraph">
+<p><a href="reference-cvs-service-levels-and-quotas.html#allocated-capacity" target="_blank" rel="noopener">"Más información sobre la capacidad asignada"</a>.</p>
+</div>
+</li>
+<li>
+<p>Especifique un nivel de servicio: Standard, Premium o Extreme.</p>
+<div class="paragraph">
+<p><a href="reference-cvs-service-levels-and-quotas.html#service-levels" target="_blank" rel="noopener">"Obtenga más información sobre los niveles de servicio"</a>.</p>
+</div>
+</li>
+<li>
+<p>Introduzca uno o más nombres de etiqueta para clasificar el volumen si lo desea.</p>
+</li>
+<li>
+<p>Haga clic en <strong>continuar</strong>.</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_cvs_vol_details_page.png" alt="Captura de pantalla de la página de detalles del volumen en la que se proporciona el nombre, el tamaño y el nivel de servicio"></span></p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>En la página Protocol, seleccione NFS, SMB o Dual Protocol y, a continuación, defina los detalles. Las entradas necesarias para NFS y SMB se muestran en secciones independientes a continuación.</p>
+</li>
+<li>
+<p>En el campo Volume Path, especifique el nombre de la exportación de volumen que se verá cuando monte el volumen.</p>
+</li>
+<li>
+<p>Si selecciona Protocolo dual, puede seleccionar el estilo de seguridad seleccionando NTFS o UNIX. Los estilos de seguridad afectan al tipo de permiso de archivo utilizado y cómo se pueden modificar los permisos.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>UNIX utiliza bits del modo NFSv3 y solo los clientes NFS pueden modificar los permisos.</p>
+</li>
+<li>
+<p>NTFS usa ACL de NTFS, y solo los clientes SMB pueden modificar los permisos.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Para NFS:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>En el campo NFS Version, seleccione NFSv3, NFSv4.1 o ambos en función de sus requisitos.</p>
+</li>
+<li>
+<p>De manera opcional, puede crear una política de exportación para identificar los clientes que pueden acceder al volumen. Especifique:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Clientes permitidos mediante una dirección IP o enrutamiento entre dominios sin clase (CIDR).</p>
+</li>
+<li>
+<p>Derechos de acceso como sólo lectura y escritura o lectura.</p>
+</li>
+<li>
+<p>Protocolo de acceso (o protocolos si el volumen permite el acceso NFSv3 y NFSv4.1) utilizado para los usuarios.</p>
+</li>
+<li>
+<p>Haga clic en <strong>+ Agregar regla de directiva de exportación</strong> si desea definir reglas de política de exportación adicionales.</p>
+<div class="paragraph">
+<p>En la siguiente imagen, se muestra la página Volume rellenada para el protocolo NFS:</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_cvs_nfs_details.png" alt="Una captura de pantalla que muestra la página del volumen rellenada para un volumen Cloud Volumes Service NFS."></span></p>
+</div>
+</li>
+<li>
+<p>Para SMB:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Puede habilitar el cifrado de sesión SMB marcando la casilla de cifrado de protocolo SMB.</p>
+</li>
+<li>
+<p>Puede integrar el volumen con un servidor de Windows Active Directory existente completando los campos de la sección Active Directory:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Campo</th>
+<th class="tableblock halign-left valign-top">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dirección IP primaria DNS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Las direcciones IP de los servidores DNS que proporcionan resolución de nombres para el servidor SMB. Utilice una coma para separar las direcciones IP cuando haga referencia a varios servidores, por ejemplo, 172.31.25.223, 172.31.2.74.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dominio de Active Directory al que unirse</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">El FQDN del dominio de Active Directory (AD) al que desea que se una el servidor SMB. Cuando se utilice Microsoft AD gestionado por AWS, utilice el valor del campo "Nombre DNS de directorio".</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nombre NetBIOS del servidor SMB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nombre NetBIOS para el servidor SMB que se va a crear.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Credenciales autorizadas para unirse al dominio</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nombre y contraseña de una cuenta de Windows con privilegios suficientes para agregar equipos a la unidad organizativa (OU) especificada dentro del dominio AD.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Unidad organizacional</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">La unidad organizativa del dominio AD para asociarla con el servidor SMB. El valor predeterminado es CN=equipos para las conexiones con su propio servidor de Windows Active Directory. Si configura Microsoft AD administrado de AWS como el servidor AD para Cloud Volumes Service, debe introducir <strong>OU=equipos,OU=corp</strong> en este campo.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>En la siguiente imagen, se muestra la página volumen llena para el protocolo SMB:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_cvs_smb_details.png" alt="Una captura de pantalla que muestra la página del volumen llena para un volumen Cloud Volumes Service de SMB."></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/cloud-manager-cloud-volumes-service-aws/images/tip.svg" alt="Sugerencia">
+</td>
+<td class="content">
+Debe seguir las directrices sobre la configuración del grupo de seguridad de AWS para habilitar volúmenes de cloud para que se integren correctamente con los servidores de Windows Active Directory. Consulte <a href="reference-security-groups-windows-ad-servers.html" target="_blank" rel="noopener">"Configuración del grupo de seguridad de AWS para servidores Windows AD"</a> si quiere más información.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>En la página Volume from Snapshot, si desea que este volumen se cree según una copia de Snapshot de un volumen existente, seleccione la copia de Snapshot en la lista desplegable Snapshot Name.</p>
+</li>
+<li>
+<p>En la página Snapshot Policy, puede habilitar Cloud Volumes Service para crear copias Snapshot de los volúmenes según una programación. Puede hacer esto ahora o editar el volumen más tarde para definir la política de Snapshot.</p>
+<div class="paragraph">
+<p>Consulte <a href="task-manage-cloud-volumes-snapshots.html#create_or_modify_a_snapshot_policy" target="_blank" rel="noopener">"Crear una política de Snapshot"</a> para obtener más información sobre la funcionalidad snapshot.</p>
+</div>
+</li>
+<li>
+<p>Haga clic en <strong>Añadir volumen</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>El nuevo volumen se agrega al entorno de trabajo.</p>
+</div>
+<div class="paragraph">
+<div class="title">Después de terminar</div>
+<p>Si este es el primer volumen creado en esta suscripción a AWS, debe iniciar la consola de gestión de AWS para aceptar la interfaz virtual que se usará en esta región de AWS para conectar todos sus volúmenes de cloud. Consulte <a href="https://docs.netapp.com/us-en/cloud_volumes/aws/media/cvs_aws_account_setup.pdf" target="_blank" rel="noopener">"Guía de configuración de la cuenta de Cloud Volumes Service para AWS de NetApp"</a> para obtener más detalles.</p>
+</div>
+<div class="paragraph">
+<p>Debe aceptar las interfaces en un plazo de 10 minutos después de hacer clic en el botón <strong>Añadir volumen</strong> o puede que se agote el tiempo de espera del sistema. Si esto sucede, envíe un correo electrónico a <a href="mailto:cvs-support@netapp.com">cvs-support@netapp.com</a> con su ID de cliente de AWS y el número de serie de NetApp. El equipo de soporte solucionará el problema y puede reiniciar el proceso de incorporación.</p>
+</div>
+<div class="paragraph">
+<p>A continuación, continúe con <a href="task-manage-cvs-aws.html#mount-the-cloud-volume">"Montaje del volumen de cloud"</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="monte-el-volumen-de-cloud">Monte el volumen de cloud</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Es posible montar un volumen de cloud en la instancia de AWS. Cloud Volumes admite actualmente NFSv3 y NFSv4.1 para clientes de Linux y UNIX, y SMB 3.0 y 3.1.1 para clientes de Windows.</p>
+</div>
+<div class="paragraph">
+<p><strong>Nota:</strong> por favor use el protocolo/dialecto resaltado soportado por su cliente.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Pasos</div>
+<ol class="arabic">
+<li>
+<p>Abra el entorno de trabajo.</p>
+</li>
+<li>
+<p>Pase el ratón sobre el volumen y haga clic en <strong>montar el volumen</strong>.</p>
+<div class="paragraph">
+<p>Los volúmenes NFS y SMB muestran instrucciones de montaje para ese protocolo. Los volúmenes de protocolo doble proporcionan ambos conjuntos de instrucciones.</p>
+</div>
+</li>
+<li>
+<p>Pase el ratón sobre los comandos y cópielos en el portapapeles para simplificar este proceso. Solo tiene que agregar el directorio de destino/punto de montaje al final del comando.</p>
+<div class="paragraph">
+<p><strong>ejemplo de NFS:</strong></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_cvs_aws_nfs_mount.png" alt="Instrucciones de montaje para volúmenes NFS"></span></p>
+</div>
+<div class="paragraph">
+<p>El tamaño máximo de I/o definido por la <code>rsize</code> y.. <code>wsize</code> options es 1048576, sin embargo 65536 es el valor predeterminado recomendado para la mayoría de los casos de uso.</p>
+</div>
+<div class="paragraph">
+<p>Tenga en cuenta que los clientes de Linux tendrán NFSv4.1 de manera predeterminada a menos que se especifique la versión con <code>vers=&lt;nfs_version&gt;</code> opción.</p>
+</div>
+<div class="paragraph">
+<p><strong>ejemplo SMB:</strong></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_cvs_aws_smb_mount.png" alt="Instrucciones de montaje para volúmenes SMB"></span></p>
+</div>
+</li>
+<li>
+<p>Conéctese a su instancia de Amazon Elastic Compute Cloud (EC2) mediante un cliente SSH o RDP y, a continuación, siga las instrucciones de montaje de su instancia.</p>
+<div class="paragraph">
+<p>Después de completar los pasos de las instrucciones de montaje, debe haber montado correctamente el volumen de cloud en la instancia de AWS.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="gestión-de-los-volúmenes-existentes">Gestión de los volúmenes existentes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Puede gestionar los volúmenes existentes a medida que cambien sus necesidades de almacenamiento. Es posible ver, editar, restaurar y eliminar volúmenes.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Pasos</div>
+<ol class="arabic">
+<li>
+<p>Abra el entorno de trabajo.</p>
+</li>
+<li>
+<p>Pase el ratón sobre el volumen.</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_cvs_aws_volume_hover_menu.png" alt="Captura de pantalla del menú de desplazamiento de volumen que le permite para realizar tareas de volumen"></span></p>
+</div>
+</li>
+<li>
+<p>Gestione sus volúmenes:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Tarea</th>
+<th class="tableblock halign-left valign-top">Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Permite ver la información de un volumen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Seleccione un volumen y, a continuación, haga clic en <strong>Info</strong>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Editar un volumen (incluida la política de Snapshot)</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Seleccione un volumen y, a continuación, haga clic en <strong>Editar</strong>.</p>
+</li>
+<li>
+<p>Modifique las propiedades del volumen y haga clic en <strong>Actualizar</strong>.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Obtenga el comando de montaje NFS o SMB</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Seleccione un volumen y, a continuación, haga clic en <strong>montar el volumen</strong>.</p>
+</li>
+<li>
+<p>Haga clic en <strong>Copiar</strong> para copiar los comandos.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cree una copia Snapshot bajo demanda</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Seleccione un volumen y, a continuación, haga clic en <strong>Crear una copia Snapshot</strong>.</p>
+</li>
+<li>
+<p>Si es necesario, cambie el nombre de la instantánea y, a continuación, haga clic en <strong>Crear</strong>.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reemplace el volumen por el contenido de una copia Snapshot</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Seleccione un volumen y, a continuación, haga clic en <strong>revertir volumen a Snapshot</strong>.</p>
+</li>
+<li>
+<p>Seleccione una copia Snapshot y haga clic en <strong>revertir</strong>.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Eliminar una copia Snapshot</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Seleccione un volumen y, a continuación, haga clic en <strong>Eliminar una copia Snapshot</strong>.</p>
+</li>
+<li>
+<p>Seleccione la copia Snapshot que desea eliminar y haga clic en <strong>Eliminar</strong>.</p>
+</li>
+<li>
+<p>Vuelva a hacer clic en <strong>Eliminar</strong> para confirmar.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Eliminar un volumen</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Desmonte el volumen de todos los clientes:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>En los clientes Linux, utilice <code>umount</code> comando.</p>
+</li>
+<li>
+<p>En clientes Windows, haga clic en <strong>desconectar unidad de red</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Seleccione un volumen y, a continuación, haga clic en <strong>Eliminar</strong>.</p>
+</li>
+<li>
+<p>Vuelva a hacer clic en <strong>Eliminar</strong> para confirmar.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="quitar-cloud-volumes-service-de-bluexp">Quitar Cloud Volumes Service de BlueXP</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Puede eliminar una suscripción a Cloud Volumes Service para AWS y todos los volúmenes existentes de BlueXP. Los volúmenes no se eliminan, simplemente se eliminan de la interfaz BlueXP.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Pasos</div>
+<ol class="arabic">
+<li>
+<p>Abra el entorno de trabajo.</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_cvs_aws_remove.png" alt="Una captura de pantalla de selección de la opción para eliminar Cloud Volumes Service de BlueXP."></span></p>
+</div>
+</li>
+<li>
+<p>Haga clic en la <span class="image"><img src="./media/screenshot_gallery_options.gif" alt=""></span> En la parte superior de la página y haga clic en <strong>Quitar Cloud Volumes Service</strong>.</p>
+</li>
+<li>
+<p>En el cuadro de diálogo de confirmación, haga clic en <strong>Quitar</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="administrar-la-configuración-de-active-directory">Administrar la configuración de Active Directory</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Si cambia sus servidores DNS o dominio de Active Directory, debe modificar el servidor SMB en Cloud Volumes Services para poder seguir sirviendo almacenamiento a los clientes.</p>
+</div>
+<div class="paragraph">
+<p>También puede eliminar el vínculo a un Active Directory si ya no lo necesita.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Pasos</div>
+<ol class="arabic">
+<li>
+<p>Abra el entorno de trabajo.</p>
+</li>
+<li>
+<p>Haga clic en la <span class="image"><img src="./media/screenshot_gallery_options.gif" alt=""></span> En la parte superior de la página y haga clic en <strong>Administrar Active Directory</strong>.</p>
+</li>
+<li>
+<p>Si no se ha configurado Active Directory, puede agregar uno ahora. Si se ha configurado uno, puede modificar los ajustes o eliminarlos utilizando <span class="image"><img src="./media/screenshot_gallery_options.gif" alt=""></span> botón.</p>
+</li>
+<li>
+<p>Especifique la configuración de Active Directory a la que desea unirse:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Campo</th>
+<th class="tableblock halign-left valign-top">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dirección IP primaria DNS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Las direcciones IP de los servidores DNS que proporcionan resolución de nombres para el servidor SMB. Utilice comas para separar las direcciones IP al hacer referencia a varios servidores, por ejemplo, 172.31.25.223, 172.31.2.74.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dominio de Active Directory al que unirse</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">El FQDN del dominio de Active Directory (AD) al que desea que se una el servidor SMB. Cuando se utilice Microsoft AD gestionado por AWS, utilice el valor del campo "Nombre DNS de directorio".</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nombre NetBIOS del servidor SMB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nombre NetBIOS para el servidor SMB que se va a crear.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Credenciales autorizadas para unirse al dominio</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nombre y contraseña de una cuenta de Windows con privilegios suficientes para agregar equipos a la unidad organizativa (OU) especificada dentro del dominio AD.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Unidad organizacional</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">La unidad organizativa del dominio AD para asociarla con el servidor SMB. El valor predeterminado es CN=equipos para las conexiones con su propio servidor de Windows Active Directory. Si configura Microsoft AD administrado de AWS como el servidor AD para Cloud Volumes Service, debe introducir <strong>OU=equipos,OU=corp</strong> en este campo.</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Haga clic en <strong>Guardar</strong> para guardar la configuración.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/copyright/">© 2023 NetApp, Inc.</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Términos y condiciones</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Política de privacidad</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Política de Cookies</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Configuración de cookies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="n-footer__bottom-right">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a target="_self" href="javascript:netapp_mailto()">Enviar comentarios sobre esta página</a>
+            </li>
+          </ul>
+        </div>
+        <div class="n-footer__social-links">
+          <ul class="n-footer__social-link-list">
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com"
+                target="_blank" title="blog" alt="blog">
+                <span class="n-footer__social-link-text">blog</span>
+                <svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+                  <title>blog@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#blog"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/"
+                target="_blank" title="community" alt="community">
+                <span class="n-footer__social-link-text">community</span>
+                <svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+                  <title>community@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#comments"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp"
+                target="_blank" title="twitter" alt="twitter">
+                <span class="n-footer__social-link-text">twitter</span>
+                <svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+                  <title>twitter@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp"
+                target="_blank" title="facebook" alt="facebook">
+                <span class="n-footer__social-link-text">facebook</span>
+                <svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+                  <title>facebook@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-linkedin"
+                href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+                <span class="n-footer__social-link-text">linkedin</span>
+                <svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+                  <title>linkedin@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-youtube"
+                href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+                <span class="n-footer__social-link-text">youtube</span>
+                <svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+                  <title>youtube@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-slideshare"
+                href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+                <span class="n-footer__social-link-text">slideshare</span>
+                <svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+                  <title>slideshare@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/es-es/cloud-manager-cloud-volumes-service-aws/common/svg/sprite.svg#slideshare"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/es-es/cloud-manager-cloud-volumes-service-aws/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/es-es/cloud-manager-cloud-volumes-service-aws/js/prism.js'></script>
+      <script type="text/javascript" src='/es-es/cloud-manager-cloud-volumes-service-aws/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/www-ntap.js'></script>
+    <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/tabbed-blocks.js'></script>
+    <script src='/es-es/cloud-manager-cloud-volumes-service-aws/js/sidebar.js'></script>
+  </body></html>
